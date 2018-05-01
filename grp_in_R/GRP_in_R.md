@@ -203,8 +203,8 @@ print(evaluate_models_df)
 ```
 
     ##      prediction_polydot prediction_vanilladot prediction_rbfdot
-    ## RMSE           51.76616             11.034497          17.05805
-    ## MAE            32.89789              7.724181          11.89087
+    ## RMSE           51.76616             11.034497          16.57386
+    ## MAE            32.89789              7.724181          11.48366
     ##      prediction_anovadot
     ## RMSE            15.87853
     ## MAE             11.68933
@@ -266,4 +266,59 @@ plot_section_of_predictions(evaluation_sarcos_df, 2450, 2600)
 
 ![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-3.png)
 
-As lowest *R**M**S**E* and *M**A**E* value is for *vanilladot* (or simply - linear) kernel, it will be used for further experiments.
+As lowest RMSE and MAE value is for *vanilladot* (or simply - linear) kernel, it will be used for further experiments.
+
+``` r
+# create sample set size sequence from original data frame == df_sarcos, starting
+# with n=100 and increasing size by 500 until reaches nrow of data frame
+sample_size = seq(100, nrow(df_sarcos), by = 500)
+
+# initialize empty data frame to record metrics
+experiment_data <- data.frame(sample_size = NA, 
+                   time.taken = NA,
+                   RMSE = NA,
+                   MAE = NA,
+                   time.taken.test = NA)
+
+# go through all sample sizes while it runs out of memory
+# loop will take some time while going through all sample sets
+# for (i in sample_size){
+#     sample_rows <- sample(nrow(df_sarcos), size = i, replace = FALSE)
+#     x_sample <- df_sarcos[sample_rows,1:21]
+#     y_sample <- df_sarcos[sample_rows,22]
+#     
+#     start.time <- Sys.time()
+#     tryCatch(
+#         gausspr_model <- gausspr(x_sample, y_sample, variance.model=T, 
+#                          kerne='vanilladot'),
+#         error = function(error){
+#           stop((paste("Error while creating model for sample with size of",
+#                 as.character(i)))
+#                )
+#           })
+#     
+#     end.time <- Sys.time()
+#     time.taken <- difftime(end.time, start.time, units = "secs")
+#     
+#     start.time <- Sys.time()
+#     predicted_values = predict(gausspr_model, df_sarcos_test[,1:21]) %>%
+#                        as.vector()
+#     end.time <- Sys.time()
+#     time.taken.test <- difftime(end.time, start.time, units = "secs")
+#     
+#     RMSE_value = calculate_RMSE(df_sarcos_test[,22], predicted_values)
+#     MAE_value = calculate_MAE(df_sarcos_test[,22], predicted_values)
+#     
+#     experiment_data <- rbind(experiment_data, 
+#                              data.frame(sample_size = i, 
+#                                    time.taken = time.taken,
+#                                    RMSE = RMSE_value,
+#                                    MAE = MAE_value,
+#                                    time.taken.test = time.taken.test))
+#     print(paste("sample data set with size of",as.character(i),", RSME:", 
+#                 as.character(RMSE_value),
+#                 "in time", as.character(time.taken)))
+# }
+# 
+# print(experiment_data)
+```
