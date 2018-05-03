@@ -99,8 +99,8 @@ print(evaluate_models_df)
 ```
 
     ##      prediction_polydot prediction_vanilladot prediction_rbfdot
-    ## RMSE           51.76616             11.034497          16.98926
-    ## MAE            32.89789              7.724181          11.83181
+    ## RMSE           51.76616             11.034497          15.99345
+    ## MAE            32.89789              7.724181          11.03083
     ##      prediction_anovadot
     ## RMSE            15.87853
     ## MAE             11.68933
@@ -148,19 +148,19 @@ plot_section_of_predictions <- function(df, from, to){
 plot_section_of_predictions(evaluation_sarcos_df, 10, 50)
 ```
 
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab:%20plotting-1.png)
+![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab_plotting-1.png)
 
 ``` r
 plot_section_of_predictions(evaluation_sarcos_df, 1000, 1100)
 ```
 
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab:%20plotting-2.png)
+![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab_plotting-2.png)
 
 ``` r
 plot_section_of_predictions(evaluation_sarcos_df, 2450, 2600)
 ```
 
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab:%20plotting-3.png)
+![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab_plotting-3.png)
 
 As lowest RMSE and MAE value is for *vanilladot* (or simply - linear) kernel, it will be used for further experiments.
 
