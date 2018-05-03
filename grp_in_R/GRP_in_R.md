@@ -99,8 +99,8 @@ print(evaluate_models_df)
 ```
 
     ##      prediction_polydot prediction_vanilladot prediction_rbfdot
-    ## RMSE           51.76616             11.034497          16.34017
-    ## MAE            32.89789              7.724181          11.29657
+    ## RMSE           51.76616             11.034497          16.98926
+    ## MAE            32.89789              7.724181          11.83181
     ##      prediction_anovadot
     ## RMSE            15.87853
     ## MAE             11.68933
