@@ -33,9 +33,7 @@ source("R/calculate_RMSE.R")
 
 SARCOS is the data set used by [Rasmussen and Williams (2006)](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) and later on also on [E.Snelson (2007)](http://www.gatsby.ucl.ac.uk/~snelson/thesis.pdf). The Data relates to an inverse dynamic problem for SARCOS anthropomorphic robot arm - i.e., map from the 21 dimensional joint position, velocity, and acceleration space to the torque at a single joint.
 
-As stated by Rasmussen and Williams, the inputs are linearly rescaled to have zero mean and unit variance on the training set. The outputs were centered so as to have zero mean on the training set.
-
-And just like [Rasmussen and Williams (2006)](http://www.gaussianprocess.org/gpml/chapters/RW.pdf), [E.Snelson (2007)](http://www.gatsby.ucl.ac.uk/~snelson/thesis.pdf), [A.Banerjee et al (2008)](https://arxiv.org/pdf/1106.5779.pdf) and many others - task is to map 21 input variables to the first of the seven torques.
+Exploratory analysis of the dataset have been performed in [Exploratory analysis of datasets]() Markdown file.
 
 ``` r
 # data set for training
@@ -51,114 +49,12 @@ df_sarcos_test <- df_sarcos_test[,1:22]
 names(df_sarcos_test) <- c(paste("feature", 1:21, sep = "_"), "target")
 ```
 
-Data set contains more than 44k observations and 22 dimensions as stated before.
-
-``` r
-dim(df_sarcos)
-```
-
-    ## [1] 44484    22
-
-Before model creation, exploratory data analysis are performed. Starting with data value summary visualized with boxplots for each joint group - position, velocity and acceleration space. Violin plots helps to understand distribution of data, and within violins you can see drawn quantiles (three horizontal lines - Q1, Q2, Q3), and mean value +/- standard deviation (red dot with red lines).
-
-``` r
-df_sacros_visualization <- reshape2::melt(df_sarcos[,1:21]) %>%
-    dplyr::mutate(group = 
-            ifelse(variable %in% c(paste("feature", 1:7, sep="_")),"position",
-            ifelse(variable %in% c(paste("feature", 8:14, sep="_")),"velocity",
-                   "acceleration")))
-```
-
-    ## No id variables; using all as measure variables
-
-``` r
-ggplot(data = 
-   df_sacros_visualization[which(df_sacros_visualization$group == "position"),], 
-        aes(x=variable, y=value)) + 
-   geom_violin(aes(fill=variable), draw_quantiles = c(0.25, 0.5, 0.75)) +
-   scale_fill_brewer(palette="Pastel1") +
-   theme_bw()+
-   theme(axis.text.x=element_text(angle=45, vjust=1, size=10, hjust=1),
-        axis.ticks = element_blank(),
-        axis.title.x = element_blank(), 
-        legend.title = element_blank()) + 
-   stat_summary(fun.data=mean_sdl, geom="pointrange", color="red")
-```
-
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/violin%20plots-1.png)
-
-``` r
-ggplot(data = 
-   df_sacros_visualization[which(df_sacros_visualization$group == "velocity"),], 
-        aes(x=variable, y=value)) + 
-   geom_violin(aes(fill=variable), draw_quantiles = c(0.25, 0.5, 0.75)) +
-   scale_fill_brewer(palette="Pastel2") +
-   theme_bw()+
-   theme(axis.text.x=element_text(angle=45, vjust=1, size=10, hjust=1),
-        axis.ticks = element_blank(),
-        axis.title.x = element_blank(), 
-        legend.title = element_blank()) + 
-   stat_summary(fun.data=mean_sdl, geom="pointrange", color="red") 
-```
-
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/violin%20plots-2.png)
-
-``` r
-ggplot(data = 
-   df_sacros_visualization[which(df_sacros_visualization$group == 
-                                   "acceleration"),], 
-        aes(x=variable, y=value)) + 
-   geom_violin(aes(fill=variable), draw_quantiles = c(0.25, 0.5, 0.75)) +
-   scale_fill_brewer(palette="Set2") +
-   theme_bw()+
-   theme(axis.text.x=element_text(angle=45, vjust=1, size=10, hjust=1),
-        axis.ticks = element_blank(),
-        axis.title.x = element_blank(), 
-        legend.title = element_blank()) + 
-   stat_summary(fun.data=mean_sdl, geom="pointrange", color="red")
-```
-
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/violin%20plots-3.png)
-
-To understand how correlated our inputs are, corellation heatmap with respective correlations is shown below.
-
-``` r
-df_sarcos_corr <- round(cor(df_sarcos[,1:21]),2)
-df_sarcos_corr[upper.tri(df_sarcos_corr)] <- NA
-df_sarcos_corr_melted <- reshape2::melt(df_sarcos_corr, na.rm = TRUE)
-
-
-ggplot(data = df_sarcos_corr_melted, aes(x=Var1, y=Var2, fill=value)) + 
-  geom_tile(color = "white") +
-  scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
-   midpoint = 0, limit = c(-1,1), space = "Lab", 
-   name="Pearson\nCorrelation")+
-  geom_raster() +
-  theme_bw()+
-  theme(axis.text.x=element_text(angle=45, vjust=1, size=10, hjust=1),
-        axis.title.x = element_blank(),
-        axis.title.y = element_blank(),
-        panel.grid.major = element_blank(),
-        panel.border = element_blank(),
-        #panel.background = element_blank(),
-        axis.ticks = element_blank(),
-        legend.justification = c(1, 0),
-        legend.position = c(0.6, 0.7),
-        legend.direction = "horizontal")+
-  coord_fixed()+
-  guides(fill = guide_colorbar(barwidth = 7, barheight = 1,
-                title.position = "top", title.hjust = 0.5)) + 
-  geom_text(aes(Var1, Var2, label = value), color = "black", size = 2)
-```
-
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/correlations-1.png)
-
 Gaussian Process Regression models in R
 ---------------------------------------
 
 ### Package 'kernlab'
 
-Package containing kernel-based machine learning methods for classification, regression, clustering, novelty detection, quantile regression and dimensionality reduction; including Gaussian Processes for regression and clasification with function *gausspr()*.
+Package contains kernel-based machine learning methods for classification, regression, clustering, novelty detection, quantile regression and dimensionality reduction; including Gaussian Processes for regression and clasification with function *gausspr()*.
 
 ``` r
 library(kernlab) # version 0.9.25
@@ -203,8 +99,8 @@ print(evaluate_models_df)
 ```
 
     ##      prediction_polydot prediction_vanilladot prediction_rbfdot
-    ## RMSE           51.76616             11.034497          16.57386
-    ## MAE            32.89789              7.724181          11.48366
+    ## RMSE           51.76616             11.034497          16.34017
+    ## MAE            32.89789              7.724181          11.29657
     ##      prediction_anovadot
     ## RMSE            15.87853
     ## MAE             11.68933
@@ -252,19 +148,19 @@ plot_section_of_predictions <- function(df, from, to){
 plot_section_of_predictions(evaluation_sarcos_df, 10, 50)
 ```
 
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
+![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab:%20plotting-1.png)
 
 ``` r
 plot_section_of_predictions(evaluation_sarcos_df, 1000, 1100)
 ```
 
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-2.png)
+![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab:%20plotting-2.png)
 
 ``` r
 plot_section_of_predictions(evaluation_sarcos_df, 2450, 2600)
 ```
 
-![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-3.png)
+![](GRP_in_R_files/figure-markdown_github-ascii_identifiers/kernlab:%20plotting-3.png)
 
 As lowest RMSE and MAE value is for *vanilladot* (or simply - linear) kernel, it will be used for further experiments.
 
@@ -281,44 +177,123 @@ experiment_data <- data.frame(sample_size = NA,
                    time.taken.test = NA)
 
 # go through all sample sizes while it runs out of memory
-# loop will take some time while going through all sample sets
-# for (i in sample_size){
-#     sample_rows <- sample(nrow(df_sarcos), size = i, replace = FALSE)
-#     x_sample <- df_sarcos[sample_rows,1:21]
-#     y_sample <- df_sarcos[sample_rows,22]
-#     
-#     start.time <- Sys.time()
-#     tryCatch(
-#         gausspr_model <- gausspr(x_sample, y_sample, variance.model=T, 
-#                          kerne='vanilladot'),
-#         error = function(error){
-#           stop((paste("Error while creating model for sample with size of",
-#                 as.character(i)))
-#                )
-#           })
-#     
-#     end.time <- Sys.time()
-#     time.taken <- difftime(end.time, start.time, units = "secs")
-#     
-#     start.time <- Sys.time()
-#     predicted_values = predict(gausspr_model, df_sarcos_test[,1:21]) %>%
-#                        as.vector()
-#     end.time <- Sys.time()
-#     time.taken.test <- difftime(end.time, start.time, units = "secs")
-#     
-#     RMSE_value = calculate_RMSE(df_sarcos_test[,22], predicted_values)
-#     MAE_value = calculate_MAE(df_sarcos_test[,22], predicted_values)
-#     
-#     experiment_data <- rbind(experiment_data, 
-#                              data.frame(sample_size = i, 
-#                                    time.taken = time.taken,
-#                                    RMSE = RMSE_value,
-#                                    MAE = MAE_value,
-#                                    time.taken.test = time.taken.test))
-#     print(paste("sample data set with size of",as.character(i),", RSME:", 
-#                 as.character(RMSE_value),
-#                 "in time", as.character(time.taken)))
-# }
-# 
-# print(experiment_data)
+# NOT RUN: 
+    ## loop will take some time while going through all sample sets
+    for (i in sample_size){
+        sample_rows <- sample(nrow(df_sarcos), size = i, replace = FALSE)
+        x_sample <- df_sarcos[sample_rows,1:21]
+        y_sample <- df_sarcos[sample_rows,22]
+    
+        start.time <- Sys.time()
+        tryCatch(
+            gausspr_model <- gausspr(x_sample, y_sample, variance.model=T,
+                             kerne='vanilladot'),
+            error = function(error){
+              stop((paste("Error while creating model for sample with size of",
+                    as.character(i)))
+                   )
+              })
+    
+        end.time <- Sys.time()
+        time.taken <- difftime(end.time, start.time, units = "secs")
+    
+        start.time <- Sys.time()
+        predicted_values = predict(gausspr_model, df_sarcos_test[,1:21]) %>%
+                           as.vector()
+        end.time <- Sys.time()
+        time.taken.test <- difftime(end.time, start.time, units = "secs")
+    
+        RMSE_value = calculate_RMSE(df_sarcos_test[,22], predicted_values)
+        MAE_value = calculate_MAE(df_sarcos_test[,22], predicted_values)
+    
+        experiment_data <- rbind(experiment_data,
+                                 data.frame(sample_size = i,
+                                       time.taken = time.taken,
+                                       RMSE = RMSE_value,
+                                       MAE = MAE_value,
+                                       time.taken.test = time.taken.test))
+        print(paste("sample data set with size of",as.character(i),", RSME:",
+                    as.character(RMSE_value),
+                    "in time", as.character(time.taken)))
+    }
+# End(not run)
 ```
+
+### Package 'laGP'
+
+Package provides functions for (local) approximate Gaussian process modeling and prediction for large spatial data and the emulation of large computer experiments as stated in package's [vignette](https://cran.r-project.org/web/packages/laGP/vignettes/laGP.pdf). The methods in the laGP package take a two-pronged approach to large data GP regression. They (1) leverage sparsity, but in fact only work with small dense matrices. And (2) the many-independent nature of calculations facilitates massive parallelization. The result is an approximate GP regression capability that can accommodate orders of magnitude larger training and testing sets than ever before.
+
+``` r
+library(laGP) # version 1.5.1
+```
+
+Just as before, we will start with creating a model for SARCOS to vizually evaluate how well model created with laGP functions performs.
+
+``` r
+# Generate empirical Bayes regularization (priors) and choose initial values 
+# and ranges for (isotropic) lengthscale and nugget parameters 
+# to a Gaussian correlation function for a GP regression model
+d_prior <- laGP::darg(list(mle=TRUE), df_sarcos[1:500,1:21], samp.size=100)
+
+# creating models with multiple methods and due to transductive learning 
+# procedure also test set's feature columns are passed.
+model_sarcos_alc    <- laGP::aGP(X = df_sarcos[1:500,1:21], 
+                                 Z = df_sarcos[1:500,22], 
+                                 XX = df_sarcos_test[,1:21],
+                                 d = d_prior,
+                                 method = "alc",
+                                 omp.threads=16)
+model_sarcos_alcray <- laGP::aGP(X = df_sarcos[1:500,1:21],
+                                 Z = df_sarcos[1:500,22],
+                                 XX = df_sarcos_test[,1:21],
+                                 d = d_prior,
+                                 method = "alcray",
+                                 omp.threads=16)
+model_sarcos_nn     <- laGP::aGP(X = df_sarcos[1:500,1:21], 
+                                 Z = df_sarcos[1:500,22], 
+                                 XX = df_sarcos_test[,1:21], 
+                                 d = d_prior,
+                                 method = "nn",
+                                 omp.threads=16)
+model_sarcos_mspe   <- laGP::aGP(X = df_sarcos[1:500,1:21], 
+                                 Z = df_sarcos[1:500,22], 
+                                 XX = df_sarcos_test[,1:21],
+                                 d = d_prior,
+                                 method = "mspe",
+                                 omp.threads=16)
+model_sarcos_fish   <- laGP::aGP(X = df_sarcos[1:500,1:21], 
+                                 Z = df_sarcos[1:500,22], 
+                                 XX = df_sarcos_test[,1:21],
+                                 d = d_prior,
+                                 method = "fish",
+                                 omp.threads=16)
+```
+
+``` r
+# creating empty data frame to evaluate predictions
+evaluation_sarcos_df <- data.frame(matrix(nrow = nrow(df_sarcos_test), ncol = 0))
+# SARCOS test data set's 22th column values are the actual values
+evaluation_sarcos_df$actual_value <- df_sarcos_test[, 22]
+# and then assigning to next 5 columns respecitve predictions. For testing whole
+# SARCOS test data set is used (4449 observations)
+evaluation_sarcos_df$prediction_alc    <- model_sarcos_alc$mean
+evaluation_sarcos_df$prediction_alcray <- model_sarcos_alcray$mean
+evaluation_sarcos_df$prediction_nn     <- model_sarcos_nn$mean
+evaluation_sarcos_df$prediction_mspe   <- model_sarcos_mspe$mean
+evaluation_sarcos_df$prediction_fish   <- model_sarcos_fish$mean
+
+# evaluate created models with RMSE and MAE. For most of the models created
+# above default values for hyper-parameters are used. 
+evaluate_models_df <- rbind(
+          {lapply(evaluation_sarcos_df[,2:6], 
+          function(x) calculate_RMSE(evaluation_sarcos_df[,1],x)) %>% 
+                      as.data.frame() },
+          {lapply(evaluation_sarcos_df[,2:6], 
+          function(x) calculate_MAE(evaluation_sarcos_df[,1],x)) %>% 
+                      as.data.frame() }
+          ) %>% `rownames<-`(c("RMSE","MAE"))
+
+print(evaluate_models_df)
+```
+
+As ALC method minimizes prediction variance it is not surprising it has the lowest evaluation metrics - both RMSE and MAE, which is why this model will be tested with increased sample sizes until it reaches whole data set, similar like it was done before.
