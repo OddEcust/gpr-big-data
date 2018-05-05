@@ -1,0 +1,2 @@
+Toy data: generated for demonstration purposes.
+Formula for both variable generation can be found in [Exploratory analysis of datasets](https://github.com/agritag/gpr-big-data/blob/master/data_sources/Exploratory_analysis_of_datasets.md)
