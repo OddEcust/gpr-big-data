@@ -27,6 +27,9 @@ library(gridExtra)
 
 # for reading MatLab files (.mat). 
 library(rmatio)  #version 0.12.0
+
+# manipulation with time
+library(lubridate)
 ```
 
 ### Toy data: synthetic data
@@ -63,7 +66,7 @@ To validte that both variables are not highly correlated to each other, Pearson'
 cor(df_toy$x,df_toy$y)
 ```
 
-    ## [1] 0.005096691
+    ## [1] 0.005096692
 
 ### SARCOS dataset
 
@@ -260,23 +263,6 @@ ggplot(data = df_abalone_melt[which(df_abalone_melt$variable %in%
 
 ![](Exploratory_analysis_of_datasets_files/figure-markdown_github-ascii_identifiers/abalone_violin_plots-3.png)
 
-``` r
-ggplot(data = df_abalone_melt[which(df_abalone_melt$variable %in% 
-                      c("whole_height")),], 
-          aes(x=variable, y=value, fill = sex)) + 
-   geom_violin(draw_quantiles = c(0.25, 0.5, 0.75)) +
-   scale_fill_brewer(palette="Pastel1") +
-   facet_grid(.~variable, scales = "free")+
-   theme_bw()+
-   theme(
-        axis.text.x=element_blank(),
-        axis.ticks = element_blank(),
-        axis.title.x = element_blank(),
-        legend.title = element_blank())
-```
-
-![](Exploratory_analysis_of_datasets_files/figure-markdown_github-ascii_identifiers/abalone_violin_plots-4.png)
-
 To understand how correlated our inputs are, correlation heatmap with respective correlations is shown below. One should not be surprised that all of the columns are correlated with each other as physical measurements typically are highly correlated. Column *rings* (aka target column) also is added to understand how correlated input features are with target value.
 
 ``` r
@@ -354,7 +340,44 @@ df_airline =
   select(-TailNum)
 ```
 
-Structure of data is shown above Values of columns like *Month, DayofMonth, DayOfWeek* etc. does not surprise. From histogram down below we can also see that data are quite evenlty distributed across whole year, month and day of the week.
+Arrival time and departure time is currently in form of *HHMM*, and needs to be transformed into mintues, where *1* means *00:00am*, but *1440* are *11:59pm*.
+
+``` r
+## from int to string
+df_airline[c("ArrTime", "DepTime")] <- 
+                 apply(df_airline[c("ArrTime", "DepTime")], MARGIN = 2, 
+                 FUN = function (x) as.character(x))
+
+## padding 0 for missig leading zeros
+df_airline[c("ArrTime", "DepTime")] <- 
+                 apply(df_airline[c("ArrTime", "DepTime")], MARGIN = 2, 
+                 FUN = function (x) stringr::str_pad(x, 4, pad = "0"))
+
+#converting from HHMM to HH:MM 
+df_airline[c("ArrTime", "DepTime")] <- 
+                 apply(df_airline[c("ArrTime", "DepTime")], MARGIN = 2, 
+                 FUN = function (x) paste(substr(x, 1, 2), substr(x, 3, 4), 
+                                          sep = ":"))
+# with help of lubridate package change to minutes 
+df_airline[c("ArrTime", "DepTime")] <- 
+                 apply(df_airline[c("ArrTime", "DepTime")], MARGIN = 2, 
+                 FUN = function (x) as.numeric(lubridate::hm(x))/60)
+```
+
+A standard procedure of data processing, data is standardized by substracting the sample mean and dividing with standard deviation.
+
+``` r
+df_airline_standardized <- apply(df_airline, MARGIN = 2, 
+                                 FUN = function (x) (x-mean(x))/sd(x)) %>%
+  as.data.frame()
+
+# save for future use: 
+# write.csv(df_airline_standardized, 
+#           "Airline_data_set/airline_standardized.csv",
+#           row.names = FALSE)
+```
+
+Structure of data is shown below. To understand better value, visualization for columns like *Month, DayofMonth, DayOfWeek* is done with un-standardized values (model is created on standardized values). And histograms for these columns does not surprise. From histogram down below we can also see that data are quite evenlty distributed across whole year, month and day of the week.
 
 ``` r
 df_airline_visualization <- reshape2::melt({df_airline %>%
@@ -412,12 +435,13 @@ grid.arrange(plot_1, plot_3, plot_2,
 Histograms, boxplots and violin plots for rest of feature variables. For *AirTime* is plotted to enhance how many outliers are there.
 
 ``` r
-df_airline_visualization <- reshape2::melt({df_airline %>% select(Distance)})
+df_airline_visualization <- reshape2::melt({df_airline_standardized %>% 
+                                                              select(Distance)})
 ggplot(data =
    df_airline_visualization, aes(x=value)) +
    geom_histogram(alpha=0.6, position="identity", colour="grey40", 
                   fill = RColorBrewer::brewer.pal(n=9,"Pastel1")[4], 
-                  binwidth = 60) +
+                  binwidth = 0.1) +
    labs(x = "Distance (miles)", y = "Frequency") + 
    theme_bw()+
    theme(panel.grid.major = element_blank(),
@@ -429,7 +453,7 @@ ggplot(data =
 ![](Exploratory_analysis_of_datasets_files/figure-markdown_github-ascii_identifiers/airline_exploratory_plots-1.png)
 
 ``` r
-df_airline_visualization <- reshape2::melt({df_airline %>% 
+df_airline_visualization <- reshape2::melt({df_airline_standardized %>% 
                                                 select(ArrTime, DepTime)})
 
 ggplot(data = df_airline_visualization,aes(x=variable, y=value, 
@@ -449,7 +473,7 @@ ggplot(data = df_airline_visualization,aes(x=variable, y=value,
 ![](Exploratory_analysis_of_datasets_files/figure-markdown_github-ascii_identifiers/airline_exploratory_plots-2.png)
 
 ``` r
-df_airline_visualization <- reshape2::melt({df_airline %>% 
+df_airline_visualization <- reshape2::melt({df_airline_standardized %>% 
                                                 select(AirTime)})
 ggplot(data =
    df_airline_visualization,aes(x=variable, y=value)) +
@@ -467,7 +491,7 @@ ggplot(data =
 ![](Exploratory_analysis_of_datasets_files/figure-markdown_github-ascii_identifiers/airline_exploratory_plots-3.png)
 
 ``` r
-df_airline_corr <- signif(cor(df_airline),2)
+df_airline_corr <- signif(cor(df_airline_standardized),2)
 df_airline_corr[upper.tri(df_airline_corr)] <- NA
 df_airline_corr_melted <- reshape2::melt(df_airline_corr, na.rm = TRUE)
 
