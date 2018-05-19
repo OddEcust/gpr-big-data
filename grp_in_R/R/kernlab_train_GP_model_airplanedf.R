@@ -4,12 +4,25 @@ library(reshape2)
 library(kernlab)
 
 # read in airplane data set ----------------------------------------------------
-df <- read.csv("../data_sources/Airline_data_set/airline_standardized.csv",
+df <- read.csv("airline_standardized.csv",
                stringsAsFactors = FALSE)
 
 # MAE and RMSE  ---------------------------------------------------------------- 
-source("R/calculate_MAE.R")
-source("R/calculate_RMSE.R")
+source("calculate_MAE.R")
+source("calculate_RMSE.R")
+
+# Split data into train and test sets ------------------------------------------
+
+## 80% of the sample size
+smp_size <- floor(0.80 * nrow(df))
+
+## set the seed to make your partition reproductible
+set.seed(123)
+train_ind <- sample(seq_len(nrow(df)), size = smp_size)
+
+df_train <- df[train_ind, ]
+df_test  <- df[-train_ind, ]
+
 
 # Main part: test various kernels ----=-----------------------------------------
 
@@ -28,7 +41,7 @@ experiment_data <- data.frame(sample_size = NA,
                               time.taken.test = NA)
 
 # create vector of kernels:
-methods <- c("rbfdot", "laplacedot", "vanilladot")
+kernels  <- c("rbfdot", "laplacedot", "vanilladot")
 
 
 # go through all sample sizes while it runs out of memory
