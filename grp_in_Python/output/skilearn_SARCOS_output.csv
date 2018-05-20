@@ -1,0 +1,341 @@
+data,sample_size,RMSE,MAE,time_took,kernel
+sarcos,100,17.4017546,11.42819001,0.178871,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,100,19.64633175,13.22929659,0.17875,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,1100,11.73927935,6.426720334,6.947793,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,2100,10.49651672,5.486259938,24.09992,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,3100,10.09114695,5.071603932,59.112193,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,4100,9.260186754,4.577020668,119.085309,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,5100,8.566676458,4.128734773,212.16465,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,6100,8.189781979,3.919579949,348.418298,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,7100,7.750036372,3.672550228,532.804903,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,8100,7.43977571,3.367881639,774.644158,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,9100,6.995028694,3.175058991,1082.436017,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,10100,6.195603481,2.838885485,1456.487438,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,11100,6.331561459,2.765156761,2078.841223,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,12100,5.543646571,2.468254563,5288.072053,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,13100,5.533101712,2.494396895,3376.00127,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,14100,5.382271421,2.283284571,4238.116249,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,15100,5.052267585,2.183739073,5181.567849,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,16100,5.238936259,2.215914603,18509.97295,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,17100,4.986716735,1.987548763,7438.574355,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,100,20.4513132,14.00741325,0.18668,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,1100,11.53513428,6.450722946,24.618741,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,2100,9.765190305,5.280961929,26.441855,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,3100,8.245731771,4.439731623,64.763846,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,4100,9.084130269,4.605825065,119.295903,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,5100,8.293068756,4.084610337,212.665799,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,6100,7.812657329,3.749121228,348.764769,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,7100,6.621796972,3.367538546,533.226813,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,8100,7.010620172,3.335022929,776.000662,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,9100,6.380726928,3.01300408,1189.7655,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,10100,6.412594768,2.872913537,1458.006834,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,11100,6.945849081,2.944074715,2104.045696,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,12100,5.94655985,2.619248272,2222.863087,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,13100,5.574320718,2.415454335,3416.037562,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,14100,6.137435241,2.532768863,4232.395924,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,15100,5.571662049,2.281633469,12481.54002,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,16100,5.714200574,2.223031201,6211.424636,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,17100,5.102321797,2.045507981,7465.675592,"Matern(length_scale=1.1, nu=1.5)"
+sarcos,100,18.15399771,12.13616862,0.239873,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,100,19.07861478,12.94339633,0.169917,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,1100,15.10830363,8.484854719,8.862084,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,2100,13.801918,7.35763128,28.821467,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,3100,14.3453912,7.469922289,70.993929,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,4100,13.39196341,6.682653917,178.042164,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,5100,12.4448074,6.01311433,463.045231,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,6100,12.78644714,6.146990079,553.320071,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,7100,12.48873888,5.857723539,826.291867,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,8100,11.75944343,5.325115235,1124.254109,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,9100,10.66207753,4.861536576,1466.764762,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,10100,11.33764751,4.982813251,1833.620766,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,11100,11.01791598,4.780251348,2411.026765,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,12100,10.23751071,4.320275071,2943.415366,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,13100,9.977769975,4.112878884,3602.694416,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,14100,10.16808333,4.108795804,4794.098812,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,15100,9.830595657,3.859853326,5423.547049,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,16100,9.760307892,3.744731928,8511.332468,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,17100,9.562999928,3.606407623,7810.297215,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,100,18.40893158,12.6208314,0.205276,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,1100,14.78999235,8.118372827,9.776573,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,2100,15.05965351,8.128422355,29.168104,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,3100,13.34618267,6.785232087,89.15776,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,4100,13.74620587,6.930176726,179.672685,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,5100,12.99048356,6.26743827,341.870165,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,6100,12.72266896,5.977119862,526.232625,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,7100,12.31647342,5.685106713,801.892799,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,8100,11.61011122,5.335731129,1241.406639,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,9100,11.70034597,5.254618092,1626.347227,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,10100,12.04072802,5.278373408,1899.681693,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,11100,11.13043808,4.812135859,2494.363564,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,12100,10.70672288,4.432777291,3206.453831,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,13100,10.04578023,4.114095217,4648.284931,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,14100,10.40224814,4.160787743,5381.626377,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,15100,10.52097245,4.215013123,6115.800766,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,16100,9.539943168,3.729210859,7946.986894,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,17100,9.344090353,3.544744606,8859.087564,"Matern(length_scale=1.1, nu=2.5)"
+sarcos,100,17.35064702,12.28965538,0.394761,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,400,10.73265389,7.587534189,2.365795,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,100,16.59382687,11.7601624,0.384722,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,1100,9.618644621,6.375112791,13.04741,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,2100,7.681930803,5.131840775,45.854487,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,3100,6.904417406,4.513581892,111.170637,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,4100,6.435187488,4.208491058,208.952977,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,5100,5.79440808,3.781620225,345.649242,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,6100,5.587565914,3.556712226,560.869061,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,7100,5.31580017,3.301832235,906.040265,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,8100,5.193810365,3.150878972,1227.28397,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,9100,4.942484536,2.992036476,1702.244662,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,10100,4.600197908,2.757100621,2291.743383,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,11100,4.531348854,2.645299093,3001.813173,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,12100,4.446528906,2.566883164,3600.187538,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,13100,4.329634922,2.489196522,4520.830961,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,14100,4.127792679,2.266507173,5188.598522,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,15100,3.950469008,2.153419155,6324.839105,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,100,14.84422013,10.73908698,0.408614,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,1100,9.463921664,6.266722339,13.945942,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,2100,7.543175796,5.039336454,44.061552,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,3100,7.155330075,4.642399299,106.476373,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,4100,6.231299091,4.107043366,212.335274,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,5100,5.852269666,3.796547479,372.7084,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,6100,5.629228288,3.595195115,605.669775,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,7100,5.388911276,3.358203346,917.373148,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,8100,5.23436007,3.20481204,1243.280734,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,9100,4.981127677,3.024920751,1724.04382,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,10100,4.671158541,2.788094298,2157.15952,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,11100,4.622889899,2.697668931,2830.583557,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,12100,4.439591345,2.570069475,3628.916215,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,13100,4.21891716,2.397941539,4535.973447,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,14100,4.173128236,2.326829562,5192.766609,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,15100,4.017763726,2.183564557,6353.432899,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,100,15.65593488,11.04975637,0.387149,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,1100,9.58453468,6.380457837,13.881263,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,2100,7.535967102,5.083135352,46.074748,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,3100,7.151879277,4.725584977,105.24982,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,4100,6.183125653,4.081122699,209.532338,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,5100,5.960028505,3.798844902,368.463613,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,6100,5.58781668,3.519903251,600.750993,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,7100,5.210981727,3.314253913,1011.342469,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,8100,5.155043041,3.133153428,1280.359935,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,9100,4.991400688,2.983984147,1592.701773,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,10100,4.734645799,2.821291224,2296.586311,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,11100,4.675394729,2.746179321,3009.220791,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,12100,4.319778964,2.500125975,3601.563285,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,13100,4.3299247,2.437465726,4200.991548,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,14100,4.159774079,2.312026343,5185.191326,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,15100,4.062972073,2.201277314,6325.609913,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,100,16.52556755,11.60812722,0.400096,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,1100,8.970870481,6.06561743,13.237226,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,2100,7.920142841,5.207146816,44.309301,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,3100,6.801914224,4.527462,106.697062,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,4100,6.209609291,4.061437106,212.241475,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,5100,5.905608035,3.748973525,372.674673,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,6100,5.525872409,3.520378161,567.007897,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,7100,5.345735974,3.358266876,970.969991,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,8100,5.175120531,3.1546039,1316.033357,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,9100,4.864675189,2.921534647,1600.843888,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,10100,4.81535186,2.884927288,2293.150382,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,11100,4.655405397,2.691271955,3004.565578,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,12100,4.379447279,2.50692374,3346.312925,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,13100,4.341220304,2.489093981,4530.581513,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,14100,4.181158535,2.34619013,5209.704476,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,15100,4.050564072,2.184921455,6339.799765,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,100,15.72118735,11.09440282,0.354528,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,400,12.03376944,8.201358213,2.23995,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,700,10.2998004,6.87512427,7.1508,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1000,9.281190304,6.244730201,10.877247,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1300,8.782113903,5.863344902,16.290064,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1600,7.999934568,5.462261337,21.81498,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1900,8.396315542,5.479412805,28.309453,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,2200,7.620939306,5.101891536,44.942809,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,2500,6.900712812,4.676861436,59.962631,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,2800,6.967181847,4.664443459,77.228915,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,3100,6.894556067,4.559939627,98.620241,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,3400,6.540644617,4.314026286,114.064608,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,3700,6.514836546,4.284956615,130.909905,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4000,6.331009524,4.14036954,159.17892,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4300,6.228721974,4.055181667,178.721215,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4600,6.006077793,3.903478447,210.87255,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4900,5.944876606,3.840742007,249.878145,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,5200,5.972141182,3.815220947,291.451881,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,5500,5.928740429,3.77596398,341.541556,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,5800,5.529158981,3.551526293,392.626062,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,6100,5.570345425,3.522986437,490.47329,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,6400,5.475218958,3.441135207,564.307018,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,100,16.12485379,11.37029276,0.420347,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1100,9.499594418,6.299432614,13.094741,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,2100,7.544307828,5.08277579,38.428484,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,3100,7.064913285,4.616340834,80.101732,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4100,6.382379363,4.128492409,159.146138,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,5100,5.828339724,3.774913007,278.231519,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,6100,5.640940399,3.558064767,671.991093,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,7100,5.321490067,3.330972389,795.115275,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,8100,5.103207724,3.120119806,1067.317958,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,9100,4.744908013,2.867715743,1594.780889,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,10100,4.607011602,2.747356992,2135.24931,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,11100,4.58399257,2.633441597,2599.131296,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,12100,4.361551729,2.538589617,3333.203628,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,13100,4.268044194,2.421297109,4510.055612,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,14100,4.0867126,2.277832967,5580.888574,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,15100,4.03348223,2.173444432,6323.520708,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,100,16.23559452,11.410031,0.417687,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1100,9.781499068,6.423598405,12.92823,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,2100,7.919219888,5.130855383,37.546258,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,3100,6.926481439,4.548116529,95.570385,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4100,6.336349849,4.120140855,180.27884,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,5100,5.948195044,3.814559788,253.257425,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,6100,5.537383852,3.499587362,443.4535,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,7100,5.379027945,3.30929729,670.091171,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,8100,5.06898438,3.137600559,1036.488575,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,9100,4.897482518,2.958984365,1436.822696,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,10100,4.883663959,2.897431554,1786.239656,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,11100,4.543421261,2.666032306,2336.028885,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,12100,4.450822064,2.599110935,3237.056043,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,13100,4.089271152,2.343488881,4117.474002,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,14100,4.063107799,2.243805659,5609.879281,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,15100,4.047488968,2.235150365,6367.071721,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,100,15.06572594,10.68517525,0.425869,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1100,8.746893034,6.014533045,12.358219,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,2100,7.40798356,5.046956041,36.314257,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,3100,6.797904117,4.496871304,99.599305,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4100,6.271405747,4.1256833,160.026845,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,5100,5.790566146,3.736028953,303.652912,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,6100,5.531506902,3.510649329,455.928177,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,7100,5.247069423,3.249849545,802.051777,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,8100,5.107883847,3.165577611,1234.730146,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,9100,5.033107717,3.032343823,1598.711827,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,10100,4.653263977,2.79598842,2141.317915,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,11100,4.551358614,2.665928395,2593.046027,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,12100,4.53791686,2.600731563,3358.506379,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,13100,4.354087591,2.479486339,4527.605614,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,14100,4.168405501,2.31635978,5185.332372,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,15100,4.07735389,2.226564942,6318.127621,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,100,16.54075703,11.88321125,0.363479,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1100,8.953961736,6.056960274,13.775531,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,2100,7.606881451,5.029294767,38.122836,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,3100,6.895936413,4.581026206,98.503976,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4100,6.295391357,4.167997393,157.708832,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,5100,5.838708677,3.780520655,299.709714,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,6100,5.593319779,3.602759485,450.900127,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,7100,5.40371408,3.368240197,738.658046,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,8100,5.082731503,3.176449304,1147.325048,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,9100,4.923502918,2.989790585,1593.812924,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,10100,4.689613513,2.786556762,1994.289455,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,11100,4.614524257,2.690279674,2615.082538,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,12100,4.459776155,2.545564913,3595.217196,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,13100,4.207600446,2.405770752,4188.305153,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,14100,4.15175764,2.289856947,5559.221115,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,15100,4.063709074,2.223744924,6790.358891,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,100,15.76846897,11.38781641,0.369474,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,1100,8.939335788,6.113414138,12.238211,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,2100,7.475856267,5.091071464,38.731504,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,3100,6.607028307,4.3719242,92.848279,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,4100,6.268023777,4.095230922,172.046996,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,5100,5.944222757,3.802049516,301.99731,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,6100,5.468432959,3.467696733,453.13287,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,7100,5.342051215,3.324646319,742.414844,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,8100,5.125720936,3.171675647,1071.741105,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,9100,4.93070442,2.974809598,1600.33823,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,10100,4.773546979,2.823167385,1990.929745,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,11100,4.586804909,2.681190835,2608.77879,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,12100,4.403345238,2.558179475,3348.784459,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,13100,4.302917867,2.412454449,4513.724862,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,14100,4.085852035,2.258617517,5620.932409,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,15100,3.993764676,2.168676451,6378.939133,"RationalQuadratic(alpha=0.1, length_scale=1)"
+sarcos,100,24.50964316,18.91441223,0.392666,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,1100,8.364295462,6.007864369,24.39604,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,2100,7.429710767,5.219827247,73.970569,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,3100,6.643131235,4.494461606,221.815598,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,4100,6.000591939,4.040602558,479.221684,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,5100,5.661831469,3.75038058,860.732414,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,6100,5.425402274,3.500792286,1914.920555,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,7100,5.197942973,3.322821611,2295.280178,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,8100,5.010065908,3.088436602,2783.489226,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,9100,4.731038128,2.892572444,3678.835152,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,10100,4.617715944,2.78459052,5516.929765,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,11100,4.42538175,2.626194772,7180.514439,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,12100,4.38513161,2.538705363,8256.370323,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,100,24.48817832,18.88658303,0.270231,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,1100,8.210012979,5.98197505,21.320661,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,2100,7.431506943,5.121543544,66.175886,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,3100,6.541023396,4.471543777,157.870074,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,4100,6.256413614,4.175305612,358.215207,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,5100,5.75634796,3.79192215,879.626922,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,6100,5.283332431,3.446529971,1214.431674,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,7100,5.31071758,3.348934681,1996.846815,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,8100,5.110481288,3.158107818,2153.613553,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,9100,4.780158513,2.947208802,3587.145525,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,10100,4.554614742,2.763225471,4422.15967,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,11100,4.569724007,2.694619818,5598.766455,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,12100,4.35835771,2.52568341,5940.769978,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+sarcos,100,24.51246046,18.9146321,0.074,RBF(length_scale=0.1)
+sarcos,1100,19.92483333,12.84866513,9.167768,RBF(length_scale=0.1)
+sarcos,2100,19.3244345,12.24480169,43.361949,RBF(length_scale=0.1)
+sarcos,3100,19.91363654,12.79983895,92.535865,RBF(length_scale=0.1)
+sarcos,4100,20.03361633,12.70967254,229.326821,RBF(length_scale=0.1)
+sarcos,5100,19.63539319,12.3769054,359.625011,RBF(length_scale=0.1)
+sarcos,6100,18.92842062,11.4983421,767.447023,RBF(length_scale=0.1)
+sarcos,7100,18.88938816,11.42544938,916.082664,RBF(length_scale=0.1)
+sarcos,8100,18.85655346,11.21544564,1840.053402,RBF(length_scale=0.1)
+sarcos,9100,18.733725,11.19015381,2481.568289,RBF(length_scale=0.1)
+sarcos,10100,18.64162548,11.01301249,2974.907165,RBF(length_scale=0.1)
+sarcos,11100,18.16072082,10.32697268,4590.002384,RBF(length_scale=0.1)
+sarcos,12100,17.91464786,10.27816774,4734.236363,RBF(length_scale=0.1)
+sarcos,13100,17.62510368,9.814359054,8026.356531,RBF(length_scale=0.1)
+sarcos,14100,17.04622849,9.174537984,9416.088214,RBF(length_scale=0.1)
+sarcos,15100,17.30081821,9.650607947,14108.35544,RBF(length_scale=0.1)
+sarcos,16100,16.44151641,8.719790918,14185.87964,RBF(length_scale=0.1)
+sarcos,17100,16.7167653,8.756487018,16392.73351,RBF(length_scale=0.1)
+sarcos,100,22.9911263,17.00272771,0.14924,RBF(length_scale=1)
+sarcos,1100,20.80327328,13.95555581,7.2558,RBF(length_scale=1)
+sarcos,2100,20.50986353,13.59576933,27.973377,RBF(length_scale=1)
+sarcos,3100,19.58226929,12.45724229,67.270561,RBF(length_scale=1)
+sarcos,4100,19.7301816,12.40376577,203.837656,RBF(length_scale=1)
+sarcos,5100,19.58146277,12.27821375,317.351839,RBF(length_scale=1)
+sarcos,6100,19.05246977,11.62612306,521.420006,RBF(length_scale=1)
+sarcos,7100,18.68623146,11.28879495,694.863676,RBF(length_scale=1)
+sarcos,8100,18.85452134,11.37366452,876.524605,RBF(length_scale=1)
+sarcos,9100,18.72458484,11.2005558,1023.488334,RBF(length_scale=1)
+sarcos,10100,18.62354939,11.15895515,1635.94069,RBF(length_scale=1)
+sarcos,11100,17.91714101,10.18119133,2648.295377,RBF(length_scale=1)
+sarcos,12100,17.84432244,10.04493187,2559.49027,RBF(length_scale=1)
+sarcos,13100,17.68814182,9.920312525,4036.483178,RBF(length_scale=1)
+sarcos,14100,17.20267406,9.544261259,17987.44661,RBF(length_scale=1)
+sarcos,15100,17.43860131,9.480554767,5640.219159,RBF(length_scale=1)
+sarcos,16100,16.96007285,9.178076677,28228.32706,RBF(length_scale=1)
+sarcos,17100,16.54174112,8.673874797,6330.157275,RBF(length_scale=1)
+sarcos,100,19.02562323,12.70162033,0.169345,RBF(length_scale=1)
+sarcos,1100,19.07907587,12.01506191,7.884974,RBF(length_scale=1)
+sarcos,2100,20.33571204,13.22748217,26.971538,RBF(length_scale=1)
+sarcos,3100,19.49700941,12.28607226,76.176571,RBF(length_scale=1)
+sarcos,4100,20.67588072,13.57215897,113.646755,RBF(length_scale=1)
+sarcos,5100,19.10366054,11.82137943,623.512422,RBF(length_scale=1)
+sarcos,6100,19.2960208,11.93470898,497.05339,RBF(length_scale=1)
+sarcos,7100,19.26222273,11.80924149,775.186622,RBF(length_scale=1)
+sarcos,8100,18.79311749,11.54275408,945.573524,RBF(length_scale=1)
+sarcos,9100,18.85660112,11.25737837,1656.059036,RBF(length_scale=1)
+sarcos,10100,18.29707216,10.51497063,2075.489087,RBF(length_scale=1)
+sarcos,11100,18.08835007,10.44787767,3016.0144,RBF(length_scale=1)
+sarcos,12100,18.31843676,10.56720905,3724.740604,RBF(length_scale=1)
+sarcos,13100,17.94013949,10.13389601,4547.088248,RBF(length_scale=1)
+sarcos,14100,17.66486977,9.906768526,4065.076358,RBF(length_scale=1)
+sarcos,15100,17.05621624,9.212912047,4174.433572,RBF(length_scale=1)
+sarcos,16100,16.54989144,8.897281562,19716.21626,RBF(length_scale=1)
+sarcos,17100,16.65645635,8.453502885,8206.907697,RBF(length_scale=1)
+sarcos,100,23.50637,17.55892156,0.154702,RBF(length_scale=1)
+sarcos,1100,19.69625841,12.55081869,11.138519,RBF(length_scale=1)
+sarcos,2100,20.70358513,13.64555308,30.592957,RBF(length_scale=1)
+sarcos,3100,19.95612618,12.86409042,79.286203,RBF(length_scale=1)
+sarcos,4100,20.34443562,13.09990594,175.10367,RBF(length_scale=1)
+sarcos,5100,20.62161255,13.34413101,240.854185,RBF(length_scale=1)
+sarcos,6100,19.74523678,12.49322548,448.175803,RBF(length_scale=1)
+sarcos,7100,19.07883706,11.67321284,670.98065,RBF(length_scale=1)
+sarcos,8100,18.95770918,11.47404625,892.491673,RBF(length_scale=1)
+sarcos,9100,19.27422222,11.81118953,1416.543807,RBF(length_scale=1)
+sarcos,10100,18.24285352,10.53582819,1309.978313,RBF(length_scale=1)
+sarcos,11100,17.85329343,10.18863676,2535.853631,RBF(length_scale=1)
+sarcos,12100,17.39862368,9.83028902,2690.015016,RBF(length_scale=1)
+sarcos,13100,17.39260819,9.700401993,3057.952394,RBF(length_scale=1)
+sarcos,14100,17.56462804,9.499094948,3896.008878,RBF(length_scale=1)
+sarcos,15100,17.3947889,9.497554456,3549.173214,RBF(length_scale=1)
+sarcos,16100,17.12856317,9.114188215,3670.749553,RBF(length_scale=1)
+sarcos,17100,16.72522317,8.899549659,8580.145033,RBF(length_scale=1)

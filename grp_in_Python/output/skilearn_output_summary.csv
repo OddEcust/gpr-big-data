@@ -1,0 +1,437 @@
+"data","kernel","sample_size","time_took","RMSE","MAE"
+"abalone","Matern(length_scale=1.1, nu = 2.5)",80,0.000334108333333333,10.377744585,9.9
+"abalone","Matern(length_scale=1.1, nu = 2.5)",320,0.00159565,9.713392816,9.225
+"abalone","Matern(length_scale=1.1, nu = 2.5)",560,0.0046569,10.52683645,9.985714286
+"abalone","Matern(length_scale=1.1, nu = 2.5)",800,0.0104858666666667,10.44341898,9.995
+"abalone","Matern(length_scale=1.1, nu = 2.5)",1040,0.0193123333333333,10.51701917,10.00769231
+"abalone","Matern(length_scale=1.1, nu = 2.5)",1280,0.0327639166666667,10.30644195,9.865625
+"abalone","Matern(length_scale=1.1, nu = 2.5)",1520,0.0409039666666667,10.26401481,9.828947368
+"abalone","Matern(length_scale=1.1, nu = 2.5)",1760,0.0545650166666667,10.47930862,9.984090909
+"abalone","Matern(length_scale=1.1, nu = 2.5)",2000,0.0708760666666667,10.33469883,9.87
+"abalone","Matern(length_scale=1.1, nu = 2.5)",2240,0.0941800333333333,10.52344322,10
+"abalone","Matern(length_scale=1.1, nu = 2.5)",2480,0.114848766666667,10.321972665,9.806451613
+"abalone","Matern(length_scale=1.1, nu = 2.5)",2720,0.142191283333333,10.48850912,9.992647059
+"abalone","Matern(length_scale=1.1, nu = 2.5)",2960,0.172717,10.52744162,10
+"abalone","Matern(length_scale=1.1, nu = 2.5)",3200,0.211034133333333,10.44682966,9.91875
+"abalone","Matern(length_scale=1.1, nu=1.5)",80,0.000318483333333333,9.886651482,9.05
+"abalone","Matern(length_scale=1.1, nu=1.5)",320,0.00153095,10.57236965,10.15
+"abalone","Matern(length_scale=1.1, nu=1.5)",560,0.00452511666666667,10.72746808,10.19285714
+"abalone","Matern(length_scale=1.1, nu=1.5)",800,0.00994871666666667,10.45920647,9.945
+"abalone","Matern(length_scale=1.1, nu=1.5)",1040,0.01864605,10.57446125,10.08846154
+"abalone","Matern(length_scale=1.1, nu=1.5)",1280,0.0323626833333333,10.2602661,9.803125
+"abalone","Matern(length_scale=1.1, nu=1.5)",1520,0.0406826166666667,10.41734384,9.889473684
+"abalone","Matern(length_scale=1.1, nu=1.5)",1760,0.05383385,10.42135046,9.9
+"abalone","Matern(length_scale=1.1, nu=1.5)",2000,0.0701108166666667,10.34611038,9.844
+"abalone","Matern(length_scale=1.1, nu=1.5)",2240,0.0927413666666667,10.37674254,9.848214286
+"abalone","Matern(length_scale=1.1, nu=1.5)",2480,0.113116775,10.378770955,9.875806452
+"abalone","Matern(length_scale=1.1, nu=1.5)",2720,0.139974016666667,10.35282002,9.848529412
+"abalone","Matern(length_scale=1.1, nu=1.5)",2960,0.17004845,10.26704252,9.806756757
+"abalone","Matern(length_scale=1.1, nu=1.5)",3200,0.207719583333333,10.40847011,9.92125
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",80,0.00307706666666667,2.2335264425,1.816146284
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",320,0.04100855,2.317520327,1.739011922
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",560,0.13872835,2.096666431,1.478221486
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",800,0.290846666666667,2.263125717,1.607241505
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",1040,0.414626116666667,2.165622515,1.517816127
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",1280,0.580056408333333,2.0025195785,1.466937257
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",1520,0.691876383333333,2.427117234,1.651920983
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",1760,0.897461166666667,2.078425912,1.479637743
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",2000,1.09742975,2.224397172,1.586708088
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",2240,1.67892505,2.262539595,1.563139495
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",2480,1.98788831666667,2.157006429,1.497459974
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",2720,2.43136111666667,2.174190323,1.548797096
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",2960,2.86859731666667,2.082430551,1.480198147
+"abalone","RationalQuadratic(alpha=0.1,  length_scale=1)",3200,3.50507848333333,2.155266328,1.525032657
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",80,0.00281295,2.9414523645,2.225790661
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",320,0.0317874,2.78908002,1.991492562
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",560,0.107060916666667,2.434891483,1.653102013
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",800,0.257818716666667,2.05987654,1.496130819
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",1040,0.3798372,2.348165344,1.61018305
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",1280,0.505842491666667,2.342348729,1.646834611
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",1520,0.606899983333333,2.155849978,1.489510892
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",1760,0.8180983,2.248087204,1.579733281
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",2000,1.12912456666667,2.142781707,1.53293982
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",2240,1.62845443333333,2.259945699,1.601449762
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",2480,1.82070891666667,2.267160847,1.518436826
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",2720,2.29290606666667,2.173336062,1.563051316
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",2960,2.78491225,2.228802849,1.562209223
+"abalone","RationalQuadratic(alpha=0.1, length_scale=0.5)",3200,3.2893962,2.101273102,1.512999375
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",80,0.00288186666666667,2.2977218375,1.7063228905
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",320,0.03993415,2.681823438,1.751296152
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",560,0.13806855,2.45484812,1.744837429
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",800,0.296815466666667,2.257572983,1.56416354
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",1040,0.402422933333333,2.229573492,1.629317905
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",1280,0.54496035,2.3270122525,1.6826695535
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",1520,0.68678975,2.368014328,1.630990634
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",1760,0.9023602,2.168445112,1.496033016
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",2000,1.26354153333333,2.222705829,1.580239866
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",2240,1.54058698333333,2.276415484,1.585207695
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",2480,1.90863823333333,2.204625208,1.518145262
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",2720,2.63466218333333,2.161320852,1.549370703
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",2960,3.12230463333333,2.078927456,1.471864941
+"abalone","RationalQuadratic(alpha=2,length_scale=0.5)",3200,3.80426151666667,2.178843921,1.520076421
+"abalone","RBF(length_scale=0.1)",80,0.000687641666666667,4.4349093465,3.00037447
+"abalone","RBF(length_scale=0.1)",320,0.00113618333333333,10.55521198,10.1375
+"abalone","RBF(length_scale=0.1)",560,0.00328063333333333,10.25566046,9.807142857
+"abalone","RBF(length_scale=0.1)",800,0.00749461666666667,10.2396289,9.75
+"abalone","RBF(length_scale=0.1)",1040,0.0140115333333333,10.42242405,10.07307692
+"abalone","RBF(length_scale=0.1)",1280,0.02572655,10.70876282,10.06875
+"abalone","RBF(length_scale=0.1)",1520,0.0339198666666667,10.40382015,9.892105263
+"abalone","RBF(length_scale=0.1)",1760,0.05036965,10.44368012,9.897727273
+"abalone","RBF(length_scale=0.1)",2000,0.0670641666666667,10.37034233,9.818
+"abalone","RBF(length_scale=0.1)",2240,0.0870512166666667,10.38757843,9.858928571
+"abalone","RBF(length_scale=0.1)",2480,0.106117791666667,10.53748699,10.00806452
+"abalone","RBF(length_scale=0.1)",2720,0.131361633333333,10.59578162,10.05
+"abalone","RBF(length_scale=0.1)",2960,0.159530916666667,10.38105082,9.906756757
+"abalone","RBF(length_scale=0.1)",3200,0.195968916666667,10.42011276,9.94375
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",80,0.00621009166666667,2.5306843035,1.813241221
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",320,0.004183,10.28773542,9.9375
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",560,0.0126917,10.64022019,10.07142857
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",800,0.0248353666666667,10.78540681,10.225
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",1040,0.0341993666666667,10.48405383,9.992307692
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",1280,0.0460236666666667,10.307384185,9.859375
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",1520,0.05816045,10.44194477,9.955263158
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",1760,0.0764370166666667,10.59470279,10.02045455
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",2000,0.0969872166666667,10.49666614,9.984
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",2240,0.123260683333333,10.27288386,9.767857143
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",2480,0.149383341666667,10.47932008,10.02580645
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",2720,0.182347433333333,10.494116,9.952941176
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",2960,0.218931783333333,10.31595458,9.835135135
+"abalone","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",3200,0.266089883333333,10.40474651,9.94375
+"abalone","RBF(length_scale=1)",80,0.000190316666666667,10.15381702,9.5
+"abalone","RBF(length_scale=1)",320,0.0011289,9.8836987,9.5125
+"abalone","RBF(length_scale=1)",560,0.00329608333333333,10.25949038,9.914285714
+"abalone","RBF(length_scale=1)",800,0.00736623333333333,10.60330137,10.1
+"abalone","RBF(length_scale=1)",1040,0.0139460166666667,10.58663889,10.04615385
+"abalone","RBF(length_scale=1)",1280,0.0257976583333333,10.467197975,9.934375
+"abalone","RBF(length_scale=1)",1520,0.0337932833333333,10.59555518,10.08421053
+"abalone","RBF(length_scale=1)",1760,0.05009785,10.33297898,9.847727273
+"abalone","RBF(length_scale=1)",2000,0.0673147666666667,10.30795809,9.87
+"abalone","RBF(length_scale=1)",2240,0.0867944666666667,10.41856173,9.932142857
+"abalone","RBF(length_scale=1)",2480,0.106257483333333,10.295196125,9.830645161
+"abalone","RBF(length_scale=1)",2720,0.131175216666667,10.40595135,9.941176471
+"abalone","RBF(length_scale=1)",2960,0.1595411,10.53032943,9.971621622
+"abalone","RBF(length_scale=1)",3200,0.196159633333333,10.29223008,9.855
+"airplane","Matern(length_scale=1.1, nu=1.5)",80,0.000188766666666667,0.942378357,0.702156744
+"airplane","Matern(length_scale=1.1, nu=1.5)",880,0.0123633,1.020902066,0.72702703
+"airplane","Matern(length_scale=1.1, nu=1.5)",1680,0.0472065,0.987329145,0.648322683
+"airplane","Matern(length_scale=1.1, nu=1.5)",2480,0.111367333333333,0.88160397,0.647879361
+"airplane","Matern(length_scale=1.1, nu=1.5)",3280,0.213858016666667,1.070682588,0.68883318
+"airplane","Matern(length_scale=1.1, nu=1.5)",4080,0.363958116666667,0.955940646,0.612826354
+"airplane","Matern(length_scale=1.1, nu=1.5)",4880,0.576446533333333,1.054739132,0.625820892
+"airplane","Matern(length_scale=1.1, nu=1.5)",5680,0.867253716666667,0.939274137,0.622101722
+"airplane","Matern(length_scale=1.1, nu=1.5)",6480,1.25133155,0.970194963,0.619467744
+"airplane","Matern(length_scale=1.1, nu=1.5)",7280,1.73717711666667,0.96616809,0.631090279
+"airplane","Matern(length_scale=1.1, nu=1.5)",8080,2.3398023,0.988266104,0.654442655
+"airplane","Matern(length_scale=1.1, nu=1.5)",8880,3.0635295,1.023449646,0.650635366
+"airplane","Matern(length_scale=1.1, nu=1.5)",9680,3.9296472,0.98659091,0.663604741
+"airplane","Matern(length_scale=1.1, nu=1.5)",10480,4.93699225,1.022935458,0.655778365
+"airplane","Matern(length_scale=1.1, nu=1.5)",11280,6.08858861666667,0.991193943,0.650546165
+"airplane","Matern(length_scale=1.1, nu=1.5)",12080,7.4267878,1.003913292,0.645998264
+"airplane","Matern(length_scale=1.1, nu=1.5)",12880,8.96125013333333,0.982641319,0.652137932
+"airplane","Matern(length_scale=1.1, nu=1.5)",13680,10.66832055,1.016633062,0.641369752
+"airplane","Matern(length_scale=1.1, nu=1.5)",14480,12.591261,0.987191413,0.666380849
+"airplane","Matern(length_scale=1.1, nu=1.5)",15280,14.7166897,0.960654692,0.649132806
+"airplane","Matern(length_scale=1.1, nu=1.5)",16080,17.1108692666667,0.958019694,0.676365524
+"airplane","Matern(length_scale=1.1, nu=1.5)",16880,19.7188844333333,0.977712087,0.652677453
+"airplane","Matern(length_scale=1.1, nu=1.5)",17680,22.55633195,0.971905899,0.65267936
+"airplane","Matern(length_scale=1.1, nu=2.5)",80,0.000205866666666667,1.122789446,0.595571925
+"airplane","Matern(length_scale=1.1, nu=2.5)",880,0.0130343166666667,0.937386654,0.674759169
+"airplane","Matern(length_scale=1.1, nu=2.5)",1680,0.04842505,0.97602605,0.692262205
+"airplane","Matern(length_scale=1.1, nu=2.5)",2480,0.113321933333333,1.007434281,0.632492489
+"airplane","Matern(length_scale=1.1, nu=2.5)",3280,0.217289966666667,1.0462911,0.71721986
+"airplane","Matern(length_scale=1.1, nu=2.5)",4080,0.369247666666667,0.975604537,0.662262509
+"airplane","Matern(length_scale=1.1, nu=2.5)",4880,0.583794116666667,0.97295016,0.645120286
+"airplane","Matern(length_scale=1.1, nu=2.5)",5680,0.876555266666667,0.981164788,0.669889948
+"airplane","Matern(length_scale=1.1, nu=2.5)",6480,1.2647747,0.921392065,0.652083715
+"airplane","Matern(length_scale=1.1, nu=2.5)",7280,1.75536016666667,1.005555339,0.641957245
+"airplane","Matern(length_scale=1.1, nu=2.5)",8080,2.36134375,1.035988179,0.650330124
+"airplane","Matern(length_scale=1.1, nu=2.5)",8880,3.0904619,0.966477167,0.659320781
+"airplane","Matern(length_scale=1.1, nu=2.5)",9680,3.9607728,1.02864063,0.672692317
+"airplane","Matern(length_scale=1.1, nu=2.5)",10480,4.97286263333333,0.969159014,0.644361171
+"airplane","Matern(length_scale=1.1, nu=2.5)",11280,6.13021253333333,0.971242762,0.646333495
+"airplane","Matern(length_scale=1.1, nu=2.5)",12080,7.4752629,1.013470008,0.660778222
+"airplane","Matern(length_scale=1.1, nu=2.5)",12880,9.01446771666667,0.942515906,0.66322635
+"airplane","Matern(length_scale=1.1, nu=2.5)",13680,10.7314236666667,0.99992995,0.667884135
+"airplane","Matern(length_scale=1.1, nu=2.5)",14480,12.6622403,1.024882779,0.668265089
+"airplane","Matern(length_scale=1.1, nu=2.5)",15280,14.7950063166667,0.980613861,0.644451506
+"airplane","Matern(length_scale=1.1, nu=2.5)",16080,17.1995483666667,0.939876273,0.656590434
+"airplane","Matern(length_scale=1.1, nu=2.5)",16880,19.81062635,0.972068747,0.66424692
+"airplane","RationalQuadratic(alpha=0.1",80,0.000338675,1.319744325,0.765862074
+"airplane","RationalQuadratic(alpha=0.1",880,0.0257652583333333,1.026042125,0.730387126
+"airplane","RationalQuadratic(alpha=0.1",1680,0.0648748083333333,0.955690237,0.729881754
+"airplane","RationalQuadratic(alpha=0.1",2480,0.139650825,0.9877163395,0.689815492
+"airplane","RationalQuadratic(alpha=0.1",3280,0.2609114,1.0449206205,0.618114935
+"airplane","RationalQuadratic(alpha=0.1",4080,0.459553608333333,0.958845892,0.609642007
+"airplane","RationalQuadratic(alpha=0.1",4880,0.719167158333333,0.9944347025,0.677889083
+"airplane","RationalQuadratic(alpha=0.1",5680,9.15617963333333,0.9621904665,0.60193825
+"airplane","RationalQuadratic(alpha=0.1",6480,13.132086925,0.972967294,0.599368447
+"airplane","RationalQuadratic(alpha=0.1",7280,17.6866669916667,0.9265320885,0.606629778
+"airplane","RationalQuadratic(alpha=0.1",8080,25.0218121166667,0.972581716,0.586637655
+"airplane","RationalQuadratic(alpha=0.1",8880,31.607409175,0.943316949,0.604372616
+"airplane","RationalQuadratic(alpha=0.1",9680,40.5113197833333,0.941994556,0.620911222
+"airplane","RationalQuadratic(alpha=0.1",10480,53.0351580333333,0.9458280645,0.611186352
+"airplane","RationalQuadratic(alpha=0.1",11280,58.3084088416667,0.986765489,0.608479423
+"airplane","RationalQuadratic(alpha=0.1",12080,70.9513846666667,0.933168993,0.632662037
+"airplane","RationalQuadratic(alpha=0.1",12880,84.6828884833333,0.9366291935,0.619258
+"airplane","RationalQuadratic(alpha=0.1",13680,103.985503216667,0.931736273,0.592662834
+"airplane","RationalQuadratic(alpha=0.1",14480,119.55837245,0.9341335965,0.594967806
+"airplane","RationalQuadratic(alpha=0.1",15280,135.980759308333,0.9147257555,0.637199127
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",80,0.000313466666666667,0.7474100725,0.535272455
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",880,0.0252650666666667,0.996243331,0.676443001
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",1680,0.0635214916666667,0.9792261315,0.574370848
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",2480,0.136770391666667,1.0374884355,0.69381418
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",3280,0.255359575,0.961399752,0.63742939
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",4080,0.429097941666667,1.0309346875,0.620125758
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",4880,0.669690941666667,1.035408029,0.678226055
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",5680,0.992619066666667,1.053606895,0.68759675
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",6480,1.415231025,0.9955466895,0.643098696
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",7280,1.9425457,1.0225068775,0.675879037
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",8080,2.594168775,1.0018075,0.637008671
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",8880,3.37052746666667,0.990503524,0.642989685
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",9680,4.29487021666667,1.016027086,0.653273018
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",10480,5.36425591666667,0.988811377,0.665878462
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",11280,6.58216154166667,0.9841186925,0.643965718
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",12080,7.99766551666667,0.943011211,0.640185368
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",12880,9.60578030833333,0.995567938,0.673704934
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",13680,11.3967173333333,0.952666939,0.64343799
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",14480,13.40792075,0.957706285,0.640232571
+"airplane","RationalQuadratic(alpha=0.1, length_scale=0.5)",15280,15.62833715,0.976072192,0.638498359
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",80,0.000338675,1.319744325,0.765862074
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",880,0.0257652583333333,1.026042125,0.730387126
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",1680,0.0648748083333333,0.955690237,0.729881754
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",2480,0.139650825,0.9877163395,0.689815492
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",3280,0.2609114,1.0449206205,0.618114935
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",4080,0.459553608333333,0.958845892,0.609642007
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",4880,0.719167158333333,0.9944347025,0.677889083
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",5680,9.15617963333333,0.9621904665,0.60193825
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",6480,13.132086925,0.972967294,0.599368447
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",7280,17.6866669916667,0.9265320885,0.606629778
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",8080,25.0218121166667,0.972581716,0.586637655
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",8880,31.607409175,0.943316949,0.604372616
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",9680,40.5113197833333,0.941994556,0.620911222
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",10480,53.0351580333333,0.9458280645,0.611186352
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",11280,58.3084088416667,0.986765489,0.608479423
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",12080,70.9513846666667,0.933168993,0.632662037
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",12880,84.6828884833333,0.9366291935,0.619258
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",13680,103.985503216667,0.931736273,0.592662834
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",14480,119.55837245,0.9341335965,0.594967806
+"airplane","RationalQuadratic(alpha=0.1, length_scale=1)",15280,135.980759308333,0.9147257555,0.637199127
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",80,0.00257325,1.262084088,0.83639329
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",880,0.02515525,0.931744264,0.662691103
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",1680,0.0635738333333333,0.984597669,0.680138574
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",2480,1.07295021666667,0.936453247,0.651708904
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",3280,1.74213915,0.905420472,0.592716117
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",4080,3.34404903333333,0.901828489,0.610715348
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",4880,4.99422223333333,0.890388742,0.597502791
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",5680,7.9095404,0.861779086,0.58438146
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",6480,11.9589946333333,0.933036754,0.608797814
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",7280,16.5397166333333,0.977465105,0.606353727
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",8080,21.0162505666667,0.9479907,0.617961771
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",8880,28.8600826,0.987971508,0.608102186
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",9680,36.8606839166667,0.918787475,0.590304292
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",10480,43.85861525,0.967485901,0.625211903
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",11280,56.83599335,0.977435392,0.621793526
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",12080,72.8839925666667,0.954004612,0.602276873
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",12880,83.19923615,0.934636117,0.58740402
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",13680,98.9729108333333,0.940252807,0.588039014
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",14480,116.652156616667,0.967157723,0.609248892
+"airplane","RationalQuadratic(alpha=2, length_scale=0.5)",15280,135.875153116667,0.907450528,0.611359561
+"airplane","RBF(length_scale=0.1)",80,0.00015725,0.977040276,0.931147887
+"airplane","RBF(length_scale=0.1)",880,0.0767777,0.86934692,0.613667234
+"airplane","RBF(length_scale=0.1)",1680,0.4308249,0.968092847,0.636833236
+"airplane","RBF(length_scale=0.1)",2480,0.38690115,0.940983851,0.65134594
+"airplane","RBF(length_scale=0.1)",3280,2.75049371666667,0.98539864,0.652889109
+"airplane","RBF(length_scale=0.1)",4080,1.37552648333333,0.902503492,0.66913408
+"airplane","RBF(length_scale=0.1)",4880,7.01601771666667,0.93248555,0.62856648
+"airplane","RBF(length_scale=0.1)",5680,17.06304585,0.994576442,0.664222597
+"airplane","RBF(length_scale=0.1)",6480,23.11136475,0.93577813,0.632501903
+"airplane","RBF(length_scale=0.1)",7280,6.03445365,0.921977166,0.653730012
+"airplane","RBF(length_scale=0.1)",8080,8.6219918,0.975009323,0.662982021
+"airplane","RBF(length_scale=0.1)",8880,10.1462787166667,0.928758976,0.648128777
+"airplane","RBF(length_scale=0.1)",9680,13.6082314333333,0.943496745,0.64374856
+"airplane","RBF(length_scale=0.1)",10480,17.2470421666667,0.954527465,0.644632068
+"airplane","RBF(length_scale=0.1)",11280,52.4959884,1.049813131,0.658217129
+"airplane","RBF(length_scale=0.1)",12080,118.741444666667,0.968684004,0.668396122
+"airplane","RBF(length_scale=0.1)",12880,130.599593483333,1.006436655,0.641905119
+"airplane","RBF(length_scale=0.1)",13680,33.2863264333333,1.018270293,0.65416872
+"airplane","RBF(length_scale=0.1)",14480,226.8386065,0.968863786,0.642468124
+"airplane","RBF(length_scale=0.1)",15280,42.2064587166667,0.969769862,0.66215764
+"airplane","RBF(length_scale=0.1)",16080,47.9953371166667,1.032546552,0.667154023
+"airplane","RBF(length_scale=0.1)",16880,54.3634734,0.93071357,0.648521473
+"airplane","RBF(length_scale=0.1)",17680,63.6553062166667,1.008152501,0.648601237
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",80,0.000264733333333333,1.066346179,0.742072863
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",880,0.306374383333333,0.928814748,0.688004728
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",1680,1.332687325,0.926068158,0.663809644
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",2480,2.35127064166667,0.938495858,0.639902322
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",3280,0.90893975,0.9833212105,0.640091829
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",4080,1.57807031666667,0.94788306,0.643852406
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",4880,2.43673925,1.037574869,0.635158735
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",5680,3.52868789166667,1.107443613,0.658827758
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",6480,5.23171745,0.9762435405,0.723805802
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",7280,6.690682275,0.972774607,0.677484947
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",8080,8.95252638333333,0.93310296,0.659098084
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",8880,55.6412672583333,0.9407081065,0.651470922
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",9680,14.1814630916667,0.98390654,0.640208406
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",10480,17.8475125166667,0.9954331575,0.577629884
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",11280,21.1577572166667,1.0156188335,0.657718072
+"airplane","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",12080,218.048904666667,0.992029632,0.603175392
+"airplane","RBF(length_scale=1)",80,0.000176,0.797601837,0.580807969
+"airplane","RBF(length_scale=1)",880,0.00926755,1.012881163,0.651058989
+"airplane","RBF(length_scale=1)",1680,0.0444073,0.955295086,0.615138052
+"airplane","RBF(length_scale=1)",2480,0.104205883333333,0.948030038,0.644288612
+"airplane","RBF(length_scale=1)",3280,0.201559983333333,1.04642101,0.665646059
+"airplane","RBF(length_scale=1)",4080,0.345107433333333,0.928366082,0.609811567
+"airplane","RBF(length_scale=1)",4880,0.54918105,0.967658867,0.691511063
+"airplane","RBF(length_scale=1)",5680,0.829816833333333,0.988136922,0.652025895
+"airplane","RBF(length_scale=1)",6480,1.20328046666667,0.994774455,0.689379798
+"airplane","RBF(length_scale=1)",7280,1.68044478333333,0.954067154,0.647766251
+"airplane","RBF(length_scale=1)",8080,2.2715262,1.067219636,0.674245324
+"airplane","RBF(length_scale=1)",8880,2.97270573333333,0.998880693,0.636068668
+"airplane","RBF(length_scale=1)",9680,3.82310308333333,0.962157048,0.686105782
+"airplane","RBF(length_scale=1)",10480,4.8217124,0.947624563,0.634978393
+"airplane","RBF(length_scale=1)",11280,5.95113921666667,0.957136987,0.649891155
+"airplane","RBF(length_scale=1)",12080,7.26979006666667,0.993302674,0.651270363
+"airplane","RBF(length_scale=1)",12880,8.77479605,0.995136466,0.658376199
+"airplane","RBF(length_scale=1)",13680,10.4602688833333,1.020850853,0.668109774
+"airplane","RBF(length_scale=1)",14480,12.3562022833333,1.085498118,0.660647839
+"airplane","RBF(length_scale=1)",15280,14.4545226666667,0.993003089,0.66961211
+"airplane","RBF(length_scale=1)",16080,16.8131813166667,1.036445028,0.655474987
+"airplane","RBF(length_scale=1)",16880,19.3868534666667,0.982936207,0.66770928
+"airplane","RBF(length_scale=1)",17680,22.2077576833333,0.973617703,0.647047839
+"sarcos","Matern(length_scale=1.1, nu=1.5)",100,0.00298118333333333,19.64633175,13.22929659
+"sarcos","Matern(length_scale=1.1, nu=1.5)",1100,0.26305445,11.637206815,6.43872164
+"sarcos","Matern(length_scale=1.1, nu=1.5)",2100,0.421181458333333,10.1308535125,5.3836109335
+"sarcos","Matern(length_scale=1.1, nu=1.5)",3100,1.032300325,9.1684393605,4.7556677775
+"sarcos","Matern(length_scale=1.1, nu=1.5)",4100,1.9865101,9.1721585115,4.5914228665
+"sarcos","Matern(length_scale=1.1, nu=1.5)",5100,3.54025374166667,8.429872607,4.106672555
+"sarcos","Matern(length_scale=1.1, nu=1.5)",6100,5.80985889166667,8.001219654,3.8343505885
+"sarcos","Matern(length_scale=1.1, nu=1.5)",7100,8.88359763333333,7.185916672,3.520044387
+"sarcos","Matern(length_scale=1.1, nu=1.5)",8100,12.9220401666667,7.225197941,3.351452284
+"sarcos","Matern(length_scale=1.1, nu=1.5)",9100,18.9350126416667,6.687877811,3.0940315355
+"sarcos","Matern(length_scale=1.1, nu=1.5)",10100,24.2874522666667,6.3040991245,2.855899511
+"sarcos","Matern(length_scale=1.1, nu=1.5)",11100,34.8573909916667,6.63870527,2.854615738
+"sarcos","Matern(length_scale=1.1, nu=1.5)",12100,62.5911261666667,5.7451032105,2.5437514175
+"sarcos","Matern(length_scale=1.1, nu=1.5)",13100,56.6003236,5.553711215,2.454925615
+"sarcos","Matern(length_scale=1.1, nu=1.5)",14100,70.5876014416667,5.759853331,2.408026717
+"sarcos","Matern(length_scale=1.1, nu=1.5)",15100,147.192565575,5.311964817,2.232686271
+"sarcos","Matern(length_scale=1.1, nu=1.5)",16100,206.01164655,5.4765684165,2.219472902
+"sarcos","Matern(length_scale=1.1, nu=1.5)",17100,124.202082891667,5.044519266,2.016528372
+"sarcos","Matern(length_scale=1.1, nu=2.5)",100,0.00342126666666667,18.40893158,12.6208314
+"sarcos","Matern(length_scale=1.1, nu=2.5)",1100,0.155322141666667,14.94914799,8.301613773
+"sarcos","Matern(length_scale=1.1, nu=2.5)",2100,0.483246425,14.430785755,7.7430268175
+"sarcos","Matern(length_scale=1.1, nu=2.5)",3100,1.33459740833333,13.845786935,7.127577188
+"sarcos","Matern(length_scale=1.1, nu=2.5)",4100,2.980957075,13.56908464,6.8064153215
+"sarcos","Matern(length_scale=1.1, nu=2.5)",5100,6.7076283,12.71764548,6.1402763
+"sarcos","Matern(length_scale=1.1, nu=2.5)",6100,8.99627246666667,12.75455805,6.0620549705
+"sarcos","Matern(length_scale=1.1, nu=2.5)",7100,13.56820555,12.40260615,5.771415126
+"sarcos","Matern(length_scale=1.1, nu=2.5)",8100,19.7138395666667,11.684777325,5.330423182
+"sarcos","Matern(length_scale=1.1, nu=2.5)",9100,25.7759332416667,11.18121175,5.058077334
+"sarcos","Matern(length_scale=1.1, nu=2.5)",10100,31.110853825,11.689187765,5.1305933295
+"sarcos","Matern(length_scale=1.1, nu=2.5)",11100,40.8782527416667,11.07417703,4.7961936035
+"sarcos","Matern(length_scale=1.1, nu=2.5)",12100,51.248909975,10.472116795,4.376526181
+"sarcos","Matern(length_scale=1.1, nu=2.5)",13100,68.758161225,10.0117751025,4.1134870505
+"sarcos","Matern(length_scale=1.1, nu=2.5)",14100,84.7977099083333,10.285165735,4.1347917735
+"sarcos","Matern(length_scale=1.1, nu=2.5)",15100,96.1612317916667,10.1757840535,4.0374332245
+"sarcos","Matern(length_scale=1.1, nu=2.5)",16100,137.15266135,9.65012553,3.7369713935
+"sarcos","Matern(length_scale=1.1, nu=2.5)",17100,138.911539825,9.4535451405,3.5755761145
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",100,0.00657935,16.52556755,11.60812722
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",400,0.0394299166666667,10.73265389,7.587534189
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",1100,0.225987408333333,9.524228172,6.320917565
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",2100,0.7513649,7.6125532995,5.1074880635
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",3100,1.77644529166667,7.0281483415,4.5849306495
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",4100,3.514781775,6.220454191,4.0940830325
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",5100,6.17615238333333,5.8789388505,3.789083852
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",6100,9.73132408333333,5.587691297,3.5385451935
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",7100,15.736192825,5.330768072,3.3362286295
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",8100,21.0303389083333,5.184465448,3.152741436
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",9100,27.5257379166667,4.9618061065,2.9880103115
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",10100,38.2074480416667,4.70290217,2.804692761
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",11100,50.0531562583333,4.639147648,2.694470443
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",12100,60.0145901916667,4.409519312,2.536903452
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",13100,75.4284372833333,4.329779811,2.4632798535
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",14100,86.5113760916667,4.1664511575,2.3194279525
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=0.5)",15100,105.54508065,4.034163899,2.184243006
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",100,0.006559675,15.94666138,11.379054585
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",400,0.0373325,12.03376944,8.201358213
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",700,0.11918,10.2998004,6.87512427
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",1000,0.18128745,9.281190304,6.244730201
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",1100,0.2154705,8.953961736,6.113414138
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",1300,0.271501066666667,8.782113903,5.863344902
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",1600,0.363583,7.999934568,5.462261337
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",1900,0.471824216666667,8.396315542,5.479412805
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",2100,0.6353806,7.544307828,5.08277579
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",2200,0.749046816666667,7.620939306,5.101891536
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",2500,0.999377183333333,6.900712812,4.676861436
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",2800,1.28714858333333,6.967181847,4.664443459
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",3100,1.61728634166667,6.89524624,4.554028078
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",3400,1.9010768,6.540644617,4.314026286
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",3700,2.18183175,6.514836546,4.284956615
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",4000,2.652982,6.331009524,4.14036954
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",4100,2.66711408333333,6.295391357,4.1256833
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",4300,2.97868691666667,6.228721974,4.055181667
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",4600,3.5145425,6.006077793,3.903478447
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",4900,4.16463575,5.944876606,3.840742007
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",5100,4.9951619,5.838708677,3.780520655
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",5200,4.85753135,5.972141182,3.815220947
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",5500,5.69235926666667,5.928740429,3.77596398
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",5800,6.5437677,5.529158981,3.551526293
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",6100,7.575508725,5.5538646385,3.516817883
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",6400,9.40511696666667,5.475218958,3.441135207
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",7100,12.3735807333333,5.342051215,3.324646319
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",8100,17.86235175,5.103207724,3.165577611
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",9100,26.5796814833333,4.923502918,2.974809598
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",10100,33.2381575833333,4.689613513,2.79598842
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",11100,43.3188549333333,4.58399257,2.666032306
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",12100,55.8130743166667,4.450822064,2.558179475
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",13100,75.1675935333333,4.268044194,2.412454449
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",14100,93.0148095666667,4.0867126,2.277832967
+"sarcos","RationalQuadratic(alpha=0.1, length_scale=1)",15100,106.117862016667,4.047488968,2.223744924
+"sarcos","RBF(length_scale=0.1)",100,0.00123333333333333,24.51246046,18.9146321
+"sarcos","RBF(length_scale=0.1)",1100,0.152796133333333,19.92483333,12.84866513
+"sarcos","RBF(length_scale=0.1)",2100,0.72269915,19.3244345,12.24480169
+"sarcos","RBF(length_scale=0.1)",3100,1.54226441666667,19.91363654,12.79983895
+"sarcos","RBF(length_scale=0.1)",4100,3.82211368333333,20.03361633,12.70967254
+"sarcos","RBF(length_scale=0.1)",5100,5.99375018333333,19.63539319,12.3769054
+"sarcos","RBF(length_scale=0.1)",6100,12.7907837166667,18.92842062,11.4983421
+"sarcos","RBF(length_scale=0.1)",7100,15.2680444,18.88938816,11.42544938
+"sarcos","RBF(length_scale=0.1)",8100,30.6675567,18.85655346,11.21544564
+"sarcos","RBF(length_scale=0.1)",9100,41.3594714833333,18.733725,11.19015381
+"sarcos","RBF(length_scale=0.1)",10100,49.5817860833333,18.64162548,11.01301249
+"sarcos","RBF(length_scale=0.1)",11100,76.5000397333333,18.16072082,10.32697268
+"sarcos","RBF(length_scale=0.1)",12100,78.9039393833333,17.91464786,10.27816774
+"sarcos","RBF(length_scale=0.1)",13100,133.77260885,17.62510368,9.814359054
+"sarcos","RBF(length_scale=0.1)",14100,156.934803566667,17.04622849,9.174537984
+"sarcos","RBF(length_scale=0.1)",15100,235.139257333333,17.30081821,9.650607947
+"sarcos","RBF(length_scale=0.1)",16100,236.431327333333,16.44151641,8.719790918
+"sarcos","RBF(length_scale=0.1)",17100,273.212225166667,16.7167653,8.756487018
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",100,0.00552414166666667,24.49891074,18.90049763
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",1100,0.380972508333333,8.2871542205,5.9949197095
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",2100,1.167887125,7.430608855,5.1706853955
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",3100,3.16404726666667,6.5920773155,4.4830026915
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",4100,6.97864075833333,6.1285027765,4.107954085
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",5100,14.5029944666667,5.7090897145,3.771151365
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",6100,26.0779352416667,5.3543673525,3.4736611285
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",7100,35.7677249416667,5.2543302765,3.335878146
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",8100,41.1425231583333,5.060273598,3.12327221
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",9100,60.549838975,4.7555983205,2.919890623
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",10100,82.8257452916667,4.586165343,2.7739079955
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",11100,106.49400745,4.4975528785,2.660407295
+"sarcos","RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)",12100,118.309502508333,4.37174466,2.5321943865
+"sarcos","RBF(length_scale=1)",100,0.00257836666666667,22.9911263,17.00272771
+"sarcos","RBF(length_scale=1)",1100,0.131416233333333,19.69625841,12.55081869
+"sarcos","RBF(length_scale=1)",2100,0.46622295,20.50986353,13.59576933
+"sarcos","RBF(length_scale=1)",3100,1.26960951666667,19.58226929,12.45724229
+"sarcos","RBF(length_scale=1)",4100,2.9183945,20.34443562,13.09990594
+"sarcos","RBF(length_scale=1)",5100,5.28919731666667,19.58146277,12.27821375
+"sarcos","RBF(length_scale=1)",6100,8.28422316666667,19.2960208,11.93470898
+"sarcos","RBF(length_scale=1)",7100,11.5810612666667,19.07883706,11.67321284
+"sarcos","RBF(length_scale=1)",8100,14.8748612166667,18.85452134,11.47404625
+"sarcos","RBF(length_scale=1)",9100,23.60906345,18.85660112,11.25737837
+"sarcos","RBF(length_scale=1)",10100,27.2656781666667,18.29707216,10.53582819
+"sarcos","RBF(length_scale=1)",11100,44.1382562833333,17.91714101,10.18863676
+"sarcos","RBF(length_scale=1)",12100,44.8335836,17.84432244,10.04493187
+"sarcos","RBF(length_scale=1)",13100,67.2747196333333,17.68814182,9.920312525
+"sarcos","RBF(length_scale=1)",14100,67.7512726333333,17.56462804,9.544261259
+"sarcos","RBF(length_scale=1)",15100,69.5738928666667,17.3947889,9.480554767
+"sarcos","RBF(length_scale=1)",16100,328.603604333333,16.96007285,9.114188215
+"sarcos","RBF(length_scale=1)",17100,136.78179495,16.65645635,8.673874797

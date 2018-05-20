@@ -1,0 +1,965 @@
+data,sample_size,RMSE,MAE,time_took,kernel
+airplane,80,1.004738629,,0.056829,"Matern(length_scale=1.1, nu=1.5)"
+airplane,880,0.861834854,,0.741798,"Matern(length_scale=1.1, nu=1.5)"
+airplane,1680,1.019273417,,2.797155,"Matern(length_scale=1.1, nu=1.5)"
+airplane,2480,0.846554314,,6.674126,"Matern(length_scale=1.1, nu=1.5)"
+airplane,3280,0.906316848,,12.798097,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4080,0.937804599,,21.805617,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4880,1.054739132,,34.564203,"Matern(length_scale=1.1, nu=1.5)"
+airplane,5680,0.939274137,,52.035223,"Matern(length_scale=1.1, nu=1.5)"
+airplane,6480,1.119820376,,75.074673,"Matern(length_scale=1.1, nu=1.5)"
+airplane,7280,0.96616809,,104.064616,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8080,1.036807941,,140.119441,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8880,1.023449646,,183.504254,"Matern(length_scale=1.1, nu=1.5)"
+airplane,9680,1.006945128,,235.192598,"Matern(length_scale=1.1, nu=1.5)"
+airplane,10480,1.077467096,,295.607509,"Matern(length_scale=1.1, nu=1.5)"
+airplane,11280,1.0433864,,365.316401,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12080,1.058441828,,445.450164,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12880,1.076090669,,537.32383,"Matern(length_scale=1.1, nu=1.5)"
+airplane,13680,1.047044621,,639.425181,"Matern(length_scale=1.1, nu=1.5)"
+airplane,14480,0.92415321,,755.086793,"Matern(length_scale=1.1, nu=1.5)"
+airplane,15280,0.960654692,,882.546882,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16080,1.034867932,,1025.93328,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16880,0.991565153,,1182.35174,"Matern(length_scale=1.1, nu=1.5)"
+airplane,17680,0.957102669,,1352.797845,"Matern(length_scale=1.1, nu=1.5)"
+airplane,80,1.262242668,,0.011159,"Matern(length_scale=1.1, nu=1.5)"
+airplane,880,0.909914895,,0.749646,"Matern(length_scale=1.1, nu=1.5)"
+airplane,1680,0.987329145,,2.799353,"Matern(length_scale=1.1, nu=1.5)"
+airplane,2480,1.008811116,,6.68204,"Matern(length_scale=1.1, nu=1.5)"
+airplane,3280,1.13535253,,12.831481,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4080,0.978715294,,21.837487,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4880,0.938368315,,34.586619,"Matern(length_scale=1.1, nu=1.5)"
+airplane,5680,0.980413373,,51.979711,"Matern(length_scale=1.1, nu=1.5)"
+airplane,6480,0.991051502,,75.14523,"Matern(length_scale=1.1, nu=1.5)"
+airplane,7280,0.957125704,,104.302324,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8080,0.915645576,,140.388138,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8880,1.133981499,,183.819873,"Matern(length_scale=1.1, nu=1.5)"
+airplane,9680,0.966701202,,235.778832,"Matern(length_scale=1.1, nu=1.5)"
+airplane,10480,0.983661673,,296.198212,"Matern(length_scale=1.1, nu=1.5)"
+airplane,11280,0.932832795,,365.041449,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12080,1.069329461,,445.514717,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12880,1.084269719,,537.678211,"Matern(length_scale=1.1, nu=1.5)"
+airplane,13680,1.017862821,,640.281647,"Matern(length_scale=1.1, nu=1.5)"
+airplane,14480,0.987191413,,755.502584,"Matern(length_scale=1.1, nu=1.5)"
+airplane,15280,0.973966995,,883.001382,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16080,0.944582981,,1026.652156,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16880,1.061345513,,1183.304999,"Matern(length_scale=1.1, nu=1.5)"
+airplane,17680,1.023046265,,1352.980333,"Matern(length_scale=1.1, nu=1.5)"
+airplane,80,0.710213882,,0.011314,"Matern(length_scale=1.1, nu=1.5)"
+airplane,880,1.020902066,,0.740534,"Matern(length_scale=1.1, nu=1.5)"
+airplane,1680,0.935978536,,2.83239,"Matern(length_scale=1.1, nu=1.5)"
+airplane,2480,0.926970312,,6.698807,"Matern(length_scale=1.1, nu=1.5)"
+airplane,3280,1.070682588,,12.86891,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4080,1.060619596,,21.987229,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4880,1.110037947,,34.676378,"Matern(length_scale=1.1, nu=1.5)"
+airplane,5680,1.094892255,,52.089365,"Matern(length_scale=1.1, nu=1.5)"
+airplane,6480,0.922835264,,75.079893,"Matern(length_scale=1.1, nu=1.5)"
+airplane,7280,1.022019061,,104.194372,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8080,1.123069588,,140.324968,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8880,0.90674432,,183.81177,"Matern(length_scale=1.1, nu=1.5)"
+airplane,9680,0.98659091,,235.772544,"Matern(length_scale=1.1, nu=1.5)"
+airplane,10480,1.101459539,,296.219535,"Matern(length_scale=1.1, nu=1.5)"
+airplane,11280,0.991193943,,365.20466,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12080,0.978753098,,445.607268,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12880,0.939783555,,537.675008,"Matern(length_scale=1.1, nu=1.5)"
+airplane,13680,1.003156175,,640.083314,"Matern(length_scale=1.1, nu=1.5)"
+airplane,14480,0.972709881,,755.335471,"Matern(length_scale=1.1, nu=1.5)"
+airplane,15280,0.948486075,,882.914,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16080,0.944195696,,1026.708231,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16880,0.977712087,,1183.077146,"Matern(length_scale=1.1, nu=1.5)"
+airplane,17680,0.970147243,,1353.379917,"Matern(length_scale=1.1, nu=1.5)"
+airplane,80,0.703366103,,0.014026,"Matern(length_scale=1.1, nu=1.5)"
+airplane,880,1.118647119,,0.859489,"Matern(length_scale=1.1, nu=1.5)"
+airplane,1680,0.914476256,,3.225318,"Matern(length_scale=1.1, nu=1.5)"
+airplane,2480,0.88160397,,7.650656,"Matern(length_scale=1.1, nu=1.5)"
+airplane,3280,0.979921702,,14.798529,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4080,0.955940646,,25.590233,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4880,1.139817032,,40.538781,"Matern(length_scale=1.1, nu=1.5)"
+airplane,5680,0.929159991,,61.120484,"Matern(length_scale=1.1, nu=1.5)"
+airplane,6480,0.970194963,,88.465153,"Matern(length_scale=1.1, nu=1.5)"
+airplane,7280,1.045003897,,122.658228,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8080,0.988266104,,164.764843,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8880,1.037059938,,215.546356,"Matern(length_scale=1.1, nu=1.5)"
+airplane,9680,0.947179883,,276.052614,"Matern(length_scale=1.1, nu=1.5)"
+airplane,10480,1.003579618,,347.215818,"Matern(length_scale=1.1, nu=1.5)"
+airplane,11280,0.991807347,,428.488741,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12080,1.003913292,,522.917002,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12880,0.970221104,,629.835203,"Matern(length_scale=1.1, nu=1.5)"
+airplane,13680,1.016633062,,750.693466,"Matern(length_scale=1.1, nu=1.5)"
+airplane,14480,1.213675926,,886.733638,"Matern(length_scale=1.1, nu=1.5)"
+airplane,15280,1.10800072,,1021.903517,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16080,0.958019694,,1166.130526,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16880,0.960850945,,1343.991602,"Matern(length_scale=1.1, nu=1.5)"
+airplane,17680,0.996087671,,1540.614239,"Matern(length_scale=1.1, nu=1.5)"
+airplane,80,0.942378357,0.702156744,0.011326,"Matern(length_scale=1.1, nu=1.5)"
+airplane,880,1.023881019,0.72702703,0.714325,"Matern(length_scale=1.1, nu=1.5)"
+airplane,1680,0.991249224,0.648322683,2.838911,"Matern(length_scale=1.1, nu=1.5)"
+airplane,2480,0.87383213,0.647879361,6.66452,"Matern(length_scale=1.1, nu=1.5)"
+airplane,3280,1.093572478,0.68883318,12.813576,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4080,0.841788302,0.612826354,21.834268,"Matern(length_scale=1.1, nu=1.5)"
+airplane,4880,0.874624614,0.625820892,34.586792,"Matern(length_scale=1.1, nu=1.5)"
+airplane,5680,0.898029256,0.622101722,52.031796,"Matern(length_scale=1.1, nu=1.5)"
+airplane,6480,0.855440631,0.619467744,75.04242,"Matern(length_scale=1.1, nu=1.5)"
+airplane,7280,0.926182572,0.631090279,104.230627,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8080,0.980599097,0.654442655,140.444103,"Matern(length_scale=1.1, nu=1.5)"
+airplane,8880,0.930057045,0.650635366,183.784166,"Matern(length_scale=1.1, nu=1.5)"
+airplane,9680,1.073771562,0.663604741,235.798337,"Matern(length_scale=1.1, nu=1.5)"
+airplane,10480,1.022935458,0.655778365,296.343769,"Matern(length_scale=1.1, nu=1.5)"
+airplane,11280,0.951305501,0.650546165,365.315317,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12080,0.973597765,0.645998264,445.869032,"Matern(length_scale=1.1, nu=1.5)"
+airplane,12880,0.982641319,0.652137932,537.495358,"Matern(length_scale=1.1, nu=1.5)"
+airplane,13680,0.895950879,0.641369752,640.099233,"Matern(length_scale=1.1, nu=1.5)"
+airplane,14480,1.002849109,0.666380849,755.47566,"Matern(length_scale=1.1, nu=1.5)"
+airplane,15280,0.954451236,0.649132806,883.084525,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16080,1.050125476,0.676365524,1026.481579,"Matern(length_scale=1.1, nu=1.5)"
+airplane,16880,0.937731035,0.652677453,1183.133066,"Matern(length_scale=1.1, nu=1.5)"
+airplane,17680,0.971905899,0.65267936,1355.280265,"Matern(length_scale=1.1, nu=1.5)"
+airplane,80,0.834810692,,0.012352,"Matern(length_scale=1.1, nu=2.5)"
+airplane,880,0.823897071,,0.786024,"Matern(length_scale=1.1, nu=2.5)"
+airplane,1680,0.837205242,,2.931121,"Matern(length_scale=1.1, nu=2.5)"
+airplane,2480,0.904979812,,6.810615,"Matern(length_scale=1.1, nu=2.5)"
+airplane,3280,1.062108928,,13.054943,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4080,1.094130041,,22.26955,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4880,1.096247531,,35.125777,"Matern(length_scale=1.1, nu=2.5)"
+airplane,5680,0.981629946,,52.695553,"Matern(length_scale=1.1, nu=2.5)"
+airplane,6480,0.867852715,,75.927377,"Matern(length_scale=1.1, nu=2.5)"
+airplane,7280,0.989866634,,105.475594,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8080,1.090725122,,142.147326,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8880,0.966477167,,185.333577,"Matern(length_scale=1.1, nu=2.5)"
+airplane,9680,1.083484865,,237.615763,"Matern(length_scale=1.1, nu=2.5)"
+airplane,10480,0.968437255,,299.034493,"Matern(length_scale=1.1, nu=2.5)"
+airplane,11280,1.052653636,,368.602355,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12080,1.057389563,,448.989908,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12880,0.939762138,,540.868063,"Matern(length_scale=1.1, nu=2.5)"
+airplane,13680,0.957496377,,644.00155,"Matern(length_scale=1.1, nu=2.5)"
+airplane,14480,0.918340733,,760.638658,"Matern(length_scale=1.1, nu=2.5)"
+airplane,15280,0.989819297,,888.404199,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16080,0.927941701,,1032.97169,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16880,0.957810399,,1190.611177,"Matern(length_scale=1.1, nu=2.5)"
+airplane,80,1.572902836,,0.012153,"Matern(length_scale=1.1, nu=2.5)"
+airplane,880,0.836974433,,0.777052,"Matern(length_scale=1.1, nu=2.5)"
+airplane,1680,0.993934266,,2.872028,"Matern(length_scale=1.1, nu=2.5)"
+airplane,2480,1.059527539,,6.799316,"Matern(length_scale=1.1, nu=2.5)"
+airplane,3280,1.0462911,,13.021541,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4080,0.975604537,,22.15486,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4880,0.906361643,,35.027647,"Matern(length_scale=1.1, nu=2.5)"
+airplane,5680,0.981164788,,52.582204,"Matern(length_scale=1.1, nu=2.5)"
+airplane,6480,0.887758171,,75.886482,"Matern(length_scale=1.1, nu=2.5)"
+airplane,7280,1.052460483,,105.32161,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8080,0.876801186,,141.680625,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8880,0.94120636,,185.336237,"Matern(length_scale=1.1, nu=2.5)"
+airplane,9680,1.02864063,,237.646368,"Matern(length_scale=1.1, nu=2.5)"
+airplane,10480,1.060587906,,298.210163,"Matern(length_scale=1.1, nu=2.5)"
+airplane,11280,0.965386738,,367.521606,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12080,1.013470008,,448.421612,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12880,0.942515906,,540.786937,"Matern(length_scale=1.1, nu=2.5)"
+airplane,13680,0.981249068,,643.799834,"Matern(length_scale=1.1, nu=2.5)"
+airplane,14480,1.024882779,,759.590912,"Matern(length_scale=1.1, nu=2.5)"
+airplane,15280,0.980613861,,887.700379,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16080,0.921526861,,1031.65449,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16880,0.972068747,,1188.600488,"Matern(length_scale=1.1, nu=2.5)"
+airplane,80,1.241529872,,0.011943,"Matern(length_scale=1.1, nu=2.5)"
+airplane,880,0.937386654,,0.782059,"Matern(length_scale=1.1, nu=2.5)"
+airplane,1680,1.216956915,,2.905503,"Matern(length_scale=1.1, nu=2.5)"
+airplane,2480,1.007434281,,6.788721,"Matern(length_scale=1.1, nu=2.5)"
+airplane,3280,0.923715144,,13.037398,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4080,0.954843351,,22.149121,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4880,0.911900445,,35.025541,"Matern(length_scale=1.1, nu=2.5)"
+airplane,5680,0.97288372,,52.593316,"Matern(length_scale=1.1, nu=2.5)"
+airplane,6480,0.998624355,,75.821868,"Matern(length_scale=1.1, nu=2.5)"
+airplane,7280,1.005555339,,105.220599,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8080,1.068469904,,141.537372,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8880,0.988600265,,185.427714,"Matern(length_scale=1.1, nu=2.5)"
+airplane,9680,0.988147164,,237.590314,"Matern(length_scale=1.1, nu=2.5)"
+airplane,10480,1.009045152,,298.371758,"Matern(length_scale=1.1, nu=2.5)"
+airplane,11280,1.004250706,,367.626081,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12080,0.947860283,,448.515774,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12880,0.923467956,,540.875854,"Matern(length_scale=1.1, nu=2.5)"
+airplane,13680,1.125034303,,643.88542,"Matern(length_scale=1.1, nu=2.5)"
+airplane,14480,1.01885462,,759.704647,"Matern(length_scale=1.1, nu=2.5)"
+airplane,15280,0.986113531,,887.641539,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16080,1.026523143,,1031.86465,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16880,0.997433236,,1188.637581,"Matern(length_scale=1.1, nu=2.5)"
+airplane,80,1.122789446,,0.02738,"Matern(length_scale=1.1, nu=2.5)"
+airplane,880,0.947340202,,0.859287,"Matern(length_scale=1.1, nu=2.5)"
+airplane,1680,0.896064906,,3.088863,"Matern(length_scale=1.1, nu=2.5)"
+airplane,2480,1.231535343,,7.51226,"Matern(length_scale=1.1, nu=2.5)"
+airplane,3280,0.958567582,,14.492112,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4080,0.954683302,,24.874112,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4880,0.97295016,,39.786622,"Matern(length_scale=1.1, nu=2.5)"
+airplane,5680,0.911769091,,59.280722,"Matern(length_scale=1.1, nu=2.5)"
+airplane,6480,0.921392065,,85.550461,"Matern(length_scale=1.1, nu=2.5)"
+airplane,7280,1.028733421,,118.7997,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8080,1.035988179,,160.071838,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8880,0.964120656,,209.661872,"Matern(length_scale=1.1, nu=2.5)"
+airplane,9680,0.981522017,,268.582996,"Matern(length_scale=1.1, nu=2.5)"
+airplane,10480,0.969159014,,337.309759,"Matern(length_scale=1.1, nu=2.5)"
+airplane,11280,0.971242762,,416.563373,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12080,1.114941687,,508.576809,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12880,1.03807381,,612.169842,"Matern(length_scale=1.1, nu=2.5)"
+airplane,13680,0.99992995,,710.676826,"Matern(length_scale=1.1, nu=2.5)"
+airplane,14480,1.025835072,,861.946042,"Matern(length_scale=1.1, nu=2.5)"
+airplane,15280,0.967769119,,1014.860648,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16080,0.939876273,,1188.104072,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16880,0.961296966,,1364.771529,"Matern(length_scale=1.1, nu=2.5)"
+airplane,80,0.817156832,0.595571925,0.059533,"Matern(length_scale=1.1, nu=2.5)"
+airplane,880,1.016784413,0.674759169,0.738798,"Matern(length_scale=1.1, nu=2.5)"
+airplane,1680,0.97602605,0.692262205,2.844302,"Matern(length_scale=1.1, nu=2.5)"
+airplane,2480,0.922430865,0.632492489,6.789347,"Matern(length_scale=1.1, nu=2.5)"
+airplane,3280,1.339004318,0.71721986,13.02288,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4080,0.999211553,0.662262509,22.120767,"Matern(length_scale=1.1, nu=2.5)"
+airplane,4880,0.999898302,0.645120286,35.024913,"Matern(length_scale=1.1, nu=2.5)"
+airplane,5680,1.066479175,0.669889948,52.57057,"Matern(length_scale=1.1, nu=2.5)"
+airplane,6480,1.116827512,0.652083715,75.877248,"Matern(length_scale=1.1, nu=2.5)"
+airplane,7280,0.952947967,0.641957245,105.221568,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8080,0.945308845,0.650330124,141.644361,"Matern(length_scale=1.1, nu=2.5)"
+airplane,8880,1.018112011,0.659320781,185.471064,"Matern(length_scale=1.1, nu=2.5)"
+airplane,9680,1.029194927,0.672692317,237.747349,"Matern(length_scale=1.1, nu=2.5)"
+airplane,10480,0.944783926,0.644361171,298.354925,"Matern(length_scale=1.1, nu=2.5)"
+airplane,11280,0.945146898,0.646333495,367.812752,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12080,0.982013826,0.660778222,448.43217,"Matern(length_scale=1.1, nu=2.5)"
+airplane,12880,0.991800809,0.66322635,540.721942,"Matern(length_scale=1.1, nu=2.5)"
+airplane,13680,1.077657154,0.667884135,643.756599,"Matern(length_scale=1.1, nu=2.5)"
+airplane,14480,1.040854425,0.668265089,759.734418,"Matern(length_scale=1.1, nu=2.5)"
+airplane,15280,0.967072992,0.644451506,887.352804,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16080,0.950487577,0.656590434,1031.972902,"Matern(length_scale=1.1, nu=2.5)"
+airplane,16880,1.001933091,0.66424692,1188.571836,"Matern(length_scale=1.1, nu=2.5)"
+airplane,80,0.619219195,,0.133698,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,0.903884258,,1.512023,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.9798977,,3.814084,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,1.051535749,,8.176449,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,0.995513788,,15.287873,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,1.017861088,,25.666588,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,0.918740441,,40.144978,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.045985275,,59.542417,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,1.01107155,,84.855919,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,0.950962821,,116.391345,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,1.052848927,,155.43274,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.948408217,,201.97523,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,0.956168953,,257.124026,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,0.998367903,,321.318572,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,0.960688566,,394.903323,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,0.939280205,,479.555997,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12880,0.930916304,,576.11486,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,13680,1.050653503,,683.152214,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,14480,0.948721749,,803.908369,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,15280,0.982753444,,936.746902,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,0.707887902,,0.018664,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,0.886742848,,1.508318,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,1.111304203,,3.807428,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,0.920926613,,8.18564,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,0.950925482,,15.318388,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,1.044008287,,25.740873,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,1.127944572,,40.179402,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.061228515,,59.568898,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,0.97656269,,84.953907,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,1.018984116,,116.598096,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.946675915,,155.650317,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,1.02116641,,202.214279,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,1.133772882,,257.688385,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,0.953222623,,321.796097,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,0.908462157,,394.85919,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,0.946742217,,479.627127,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12880,0.983355691,,576.308608,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,13680,0.953069992,,683.74208,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,14480,0.944954466,,804.347426,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,15280,0.928510026,,937.42642,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,0.786932243,,0.018784,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,1.780458408,,1.497838,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.9270921,,3.808495,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,1.047182387,,8.185362,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,1.000463921,,15.324761,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,1.156986809,,25.75088,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,0.942871486,,40.148785,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,0.955371715,,59.509153,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,0.984994183,,84.873327,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,1.026029639,,116.507388,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,1.027848052,,155.649936,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,1.00166023,,202.249017,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,0.900209748,,257.696041,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,0.930190679,,321.804124,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,0.95362676,,394.956062,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,1.046031196,,479.813204,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12880,0.972178511,,576.385029,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,13680,0.916298281,,683.864,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,14480,0.966690821,,804.52943,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,15280,1.04401312,,937.718764,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,0.997779565,,0.018752,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,1.515515577,,1.519857,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.978554563,,3.865002,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,0.877001303,,8.326061,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,0.967489869,,15.61262,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,0.906851567,,26.351763,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,0.902077288,,40.920024,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.151795051,,60.367028,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,1.123906378,,87.231409,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,0.941602444,,120.692678,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.980932976,,161.392297,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,1.128105941,,209.030188,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,1.060560021,,266.288305,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,1.070762416,,334.461625,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,1.007917912,,414.51304,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,0.982270214,,507.083075,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12880,1.007780185,,651.418386,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,13680,0.974277523,,778.095353,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,14480,1.132158459,,926.737369,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,15280,0.96939094,,1074.335775,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,1.178033273,,0.022341,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,1.006372863,,1.519785,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,1.076578994,,4.120263,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,1.051622803,,9.14018,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,0.881185515,,17.346245,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,1.104408428,,29.418479,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,1.140270399,,46.180975,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,0.976465801,,68.818479,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,1.000926885,,98.463049,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,1.04410114,,135.230299,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,1.022682024,,180.851638,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.979346818,,234.946486,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,1.021294311,,299.618045,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,1.279731654,,374.20442,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,1.007548819,,459.96447,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,0.906138113,,558.487491,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12880,1.013611056,,670.992785,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,13680,0.938123321,,795.828315,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,14480,1.064074202,,936.934596,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,15280,1.043359646,,1091.657473,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,0.56513701,0.535272455,0.018832,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,0.986113799,0.676443001,1.525458,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.795445846,0.574370848,3.784666,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,1.027794484,0.69381418,8.226807,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,0.955309635,0.63742939,15.314649,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,0.877221471,0.620125758,25.686931,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,1.146536342,0.678226055,40.183511,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.089963951,0.68759675,59.54539,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,0.990166494,0.643098696,84.873816,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,1.076121036,0.675879037,116.429876,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.963707542,0.637008671,155.407182,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.941293345,0.642989685,202.008967,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,1.010759861,0.653273018,257.241266,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,0.979254851,0.665878462,321.906586,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,1.018352708,0.643965718,394.796162,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,0.935979561,0.640185368,479.906658,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12880,1.063181025,0.673704934,576.243814,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,13680,0.952263886,0.64343799,683.671882,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,14480,0.938348034,0.640232571,804.42106,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,15280,0.963393988,0.638498359,937.681694,"RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,0.445266653,,0.032022,RationalQuadratic(alpha=0.1
+airplane,880,1.324696378,,1.620302,RationalQuadratic(alpha=0.1
+airplane,1680,0.961532025,,4.083744,RationalQuadratic(alpha=0.1
+airplane,2480,0.91312233,,8.946466,RationalQuadratic(alpha=0.1
+airplane,3280,1.041638224,,16.970932,RationalQuadratic(alpha=0.1
+airplane,4080,1.103903389,,28.360813,RationalQuadratic(alpha=0.1
+airplane,4880,0.977264891,,44.535981,RationalQuadratic(alpha=0.1
+airplane,5680,1.154298195,,66.339939,RationalQuadratic(alpha=0.1
+airplane,6480,0.905120342,,846.737453,RationalQuadratic(alpha=0.1
+airplane,7280,1.072998723,,1231.284547,RationalQuadratic(alpha=0.1
+airplane,8080,0.908534789,,1564.952216,RationalQuadratic(alpha=0.1
+airplane,8880,1.002948539,,1765.187049,RationalQuadratic(alpha=0.1
+airplane,9680,0.929333757,,2443.902166,RationalQuadratic(alpha=0.1
+airplane,10480,0.963989194,,3200.551407,RationalQuadratic(alpha=0.1
+airplane,11280,1.000726489,,3408.829684,RationalQuadratic(alpha=0.1
+airplane,12080,0.923354418,,4364.881369,RationalQuadratic(alpha=0.1
+airplane,12880,0.945663374,,4992.94696,RationalQuadratic(alpha=0.1
+airplane,13680,1.064752526,,6552.690837,RationalQuadratic(alpha=0.1
+airplane,14480,0.97877104,,6984.174592,RationalQuadratic(alpha=0.1
+airplane,15280,0.860289346,,8150.95677,RationalQuadratic(alpha=0.1
+airplane,80,1.121143046,,0.014992,RationalQuadratic(alpha=0.1
+airplane,880,1.061034071,,1.590864,RationalQuadratic(alpha=0.1
+airplane,1680,1.029289871,,3.846601,RationalQuadratic(alpha=0.1
+airplane,2480,0.979495547,,8.248057,RationalQuadratic(alpha=0.1
+airplane,3280,0.996971027,,15.310362,RationalQuadratic(alpha=0.1
+airplane,4080,0.91188027,,25.670731,RationalQuadratic(alpha=0.1
+airplane,4880,0.972504818,,40.163236,RationalQuadratic(alpha=0.1
+airplane,5680,0.929763295,,552.259262,RationalQuadratic(alpha=0.1
+airplane,6480,1.099251391,,792.147965,RationalQuadratic(alpha=0.1
+airplane,7280,0.906037371,,1041.126468,RationalQuadratic(alpha=0.1
+airplane,8080,1.019297994,,1394.214363,RationalQuadratic(alpha=0.1
+airplane,8880,0.939029742,,1907.711525,RationalQuadratic(alpha=0.1
+airplane,9680,1.030555943,,2437.241901,RationalQuadratic(alpha=0.1
+airplane,10480,0.900218025,,3053.42927,RationalQuadratic(alpha=0.1
+airplane,11280,0.911472537,,3409.457998,RationalQuadratic(alpha=0.1
+airplane,12080,0.942983568,,4148.395392,RationalQuadratic(alpha=0.1
+airplane,12880,0.925803828,,5251.653939,RationalQuadratic(alpha=0.1
+airplane,13680,0.899198995,,6242.194502,RationalQuadratic(alpha=0.1
+airplane,14480,0.989942557,,7352.958122,RationalQuadratic(alpha=0.1
+airplane,15280,0.931532477,,8156.178049,RationalQuadratic(alpha=0.1
+airplane,80,1.869177895,,0.014784,RationalQuadratic(alpha=0.1
+airplane,880,0.958193583,,1.55396,RationalQuadratic(alpha=0.1
+airplane,1680,0.931034835,,3.846864,RationalQuadratic(alpha=0.1
+airplane,2480,0.995937132,,8.238823,RationalQuadratic(alpha=0.1
+airplane,3280,1.048203017,,15.351935,RationalQuadratic(alpha=0.1
+airplane,4080,0.981755471,,233.360211,RationalQuadratic(alpha=0.1
+airplane,4880,1.011604514,,368.94134,RationalQuadratic(alpha=0.1
+airplane,5680,0.985363906,,59.498568,RationalQuadratic(alpha=0.1
+airplane,6480,0.988208283,,754.560083,RationalQuadratic(alpha=0.1
+airplane,7280,0.937180212,,1042.076152,RationalQuadratic(alpha=0.1
+airplane,8080,0.950958872,,1464.940832,RationalQuadratic(alpha=0.1
+airplane,8880,1.088622932,,1821.167722,RationalQuadratic(alpha=0.1
+airplane,9680,0.950111458,,2326.642922,RationalQuadratic(alpha=0.1
+airplane,10480,1.001238977,,3201.920043,RationalQuadratic(alpha=0.1
+airplane,11280,0.884336757,,3587.551063,RationalQuadratic(alpha=0.1
+airplane,12080,0.86185511,,4366.459,RationalQuadratic(alpha=0.1
+airplane,12880,0.932176143,,4992.468587,RationalQuadratic(alpha=0.1
+airplane,13680,0.920639292,,5932.807945,RationalQuadratic(alpha=0.1
+airplane,14480,0.880831377,,6988.836073,RationalQuadratic(alpha=0.1
+airplane,15280,0.85303379,,8156.509519,RationalQuadratic(alpha=0.1
+airplane,80,1.281461924,,0.021592,RationalQuadratic(alpha=0.1
+airplane,880,0.897236317,,1.531919,RationalQuadratic(alpha=0.1
+airplane,1680,0.949848449,,4.053003,RationalQuadratic(alpha=0.1
+airplane,2480,0.941139579,,8.9744,RationalQuadratic(alpha=0.1
+airplane,3280,1.094252473,,16.986259,RationalQuadratic(alpha=0.1
+airplane,4080,1.000439615,,28.503574,RationalQuadratic(alpha=0.1
+airplane,4880,0.966049361,,44.845229,RationalQuadratic(alpha=0.1
+airplane,5680,0.83725649,,621.642492,RationalQuadratic(alpha=0.1
+airplane,6480,1.052011905,,876.178829,RationalQuadratic(alpha=0.1
+airplane,7280,0.927300326,,1330.754964,RationalQuadratic(alpha=0.1
+airplane,8080,1.127863636,,1702.571307,RationalQuadratic(alpha=0.1
+airplane,8880,0.899461644,,2068.915739,RationalQuadratic(alpha=0.1
+airplane,9680,0.951291925,,2424.116473,RationalQuadratic(alpha=0.1
+airplane,10480,0.963539554,,2947.148338,RationalQuadratic(alpha=0.1
+airplane,11280,0.988869751,,3232.342626,RationalQuadratic(alpha=0.1
+airplane,12080,0.951820597,,3076.889966,RationalQuadratic(alpha=0.1
+airplane,12880,0.848078566,,5269.467569,RationalQuadratic(alpha=0.1
+airplane,13680,0.969082964,,5949.146423,RationalQuadratic(alpha=0.1
+airplane,14480,0.980784427,,6998.553791,RationalQuadratic(alpha=0.1
+airplane,15280,0.915008961,,8602.54096,RationalQuadratic(alpha=0.1
+airplane,80,2.119627223,,0.136787,RationalQuadratic(alpha=0.1
+airplane,880,0.991050179,,1.522045,RationalQuadratic(alpha=0.1
+airplane,1680,0.875426305,,3.938113,RationalQuadratic(alpha=0.1
+airplane,2480,1.195747827,,8.510042,RationalQuadratic(alpha=0.1
+airplane,3280,1.397159854,,15.921624,RationalQuadratic(alpha=0.1
+airplane,4080,0.935936313,,26.78562,RationalQuadratic(alpha=0.1
+airplane,4880,1.09015761,,41.764078,RationalQuadratic(alpha=0.1
+airplane,5680,1.000657127,,546.482294,RationalQuadratic(alpha=0.1
+airplane,6480,0.957726305,,783.702466,RationalQuadratic(alpha=0.1
+airplane,7280,0.925763851,,1080.323887,RationalQuadratic(alpha=0.1
+airplane,8080,0.99420456,,1374.758352,RationalQuadratic(alpha=0.1
+airplane,8880,0.947604156,,1885.177576,RationalQuadratic(alpha=0.1
+airplane,9680,0.886664712,,2526.699146,RationalQuadratic(alpha=0.1
+airplane,10480,0.927066264,,3163.667557,RationalQuadratic(alpha=0.1
+airplane,11280,1.060164899,,3715.350151,RationalQuadratic(alpha=0.1
+airplane,12080,0.90582583,,4967.276762,RationalQuadratic(alpha=0.1
+airplane,12880,0.941082244,,5168.999658,RationalQuadratic(alpha=0.1
+airplane,13680,0.942833254,,6299.124527,RationalQuadratic(alpha=0.1
+airplane,14480,0.863501387,,8525.295012,RationalQuadratic(alpha=0.1
+airplane,15280,0.91444255,,9526.670868,RationalQuadratic(alpha=0.1
+airplane,80,1.358026726,0.765862074,0.019049,RationalQuadratic(alpha=0.1
+airplane,880,1.286557643,0.730387126,1.537871,RationalQuadratic(alpha=0.1
+airplane,1680,1.147648138,0.729881754,3.808862,RationalQuadratic(alpha=0.1
+airplane,2480,1.025995212,0.689815492,8.248031,RationalQuadratic(alpha=0.1
+airplane,3280,0.892105129,0.618114935,15.387744,RationalQuadratic(alpha=0.1
+airplane,4080,0.832715083,0.609642007,25.904715,RationalQuadratic(alpha=0.1
+airplane,4880,1.078810152,0.677889083,40.315648,RationalQuadratic(alpha=0.1
+airplane,5680,0.939017027,0.60193825,552.68125,RationalQuadratic(alpha=0.1
+airplane,6480,0.87595596,0.599368447,755.067806,RationalQuadratic(alpha=0.1
+airplane,7280,0.914999768,0.606629778,682.987117,RationalQuadratic(alpha=0.1
+airplane,8080,0.928304409,0.586637655,1537.676622,RationalQuadratic(alpha=0.1
+airplane,8880,0.919956415,0.604372616,2001.161723,RationalQuadratic(alpha=0.1
+airplane,9680,0.933877654,0.620911222,2326.508975,RationalQuadratic(alpha=0.1
+airplane,10480,0.928116575,0.611186352,3207.918954,RationalQuadratic(alpha=0.1
+airplane,11280,0.984661227,0.608479423,3592.074323,RationalQuadratic(alpha=0.1
+airplane,12080,1.049036272,0.632662037,4149.284791,RationalQuadratic(alpha=0.1
+airplane,12880,0.965936133,0.619258,4989.638966,RationalQuadratic(alpha=0.1
+airplane,13680,0.856041494,0.592662834,6236.065884,RationalQuadratic(alpha=0.1
+airplane,14480,0.889496153,0.594967806,7348.450903,RationalQuadratic(alpha=0.1
+airplane,15280,1.055742243,0.637199127,8161.181598,RationalQuadratic(alpha=0.1
+airplane,80,0.445266653,,0.032022,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,880,1.324696378,,1.620302,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,1680,0.961532025,,4.083744,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,2480,0.91312233,,8.946466,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,3280,1.041638224,,16.970932,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4080,1.103903389,,28.360813,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4880,0.977264891,,44.535981,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,5680,1.154298195,,66.339939,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,6480,0.905120342,,846.737453,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,7280,1.072998723,,1231.284547,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8080,0.908534789,,1564.952216,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8880,1.002948539,,1765.187049,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,9680,0.929333757,,2443.902166,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,10480,0.963989194,,3200.551407,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,11280,1.000726489,,3408.829684,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12080,0.923354418,,4364.881369,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12880,0.945663374,,4992.94696,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,13680,1.064752526,,6552.690837,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,14480,0.97877104,,6984.174592,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,15280,0.860289346,,8150.95677,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,80,1.121143046,,0.014992,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,880,1.061034071,,1.590864,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,1680,1.029289871,,3.846601,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,2480,0.979495547,,8.248057,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,3280,0.996971027,,15.310362,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4080,0.91188027,,25.670731,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4880,0.972504818,,40.163236,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,5680,0.929763295,,552.259262,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,6480,1.099251391,,792.147965,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,7280,0.906037371,,1041.126468,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8080,1.019297994,,1394.214363,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8880,0.939029742,,1907.711525,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,9680,1.030555943,,2437.241901,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,10480,0.900218025,,3053.42927,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,11280,0.911472537,,3409.457998,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12080,0.942983568,,4148.395392,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12880,0.925803828,,5251.653939,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,13680,0.899198995,,6242.194502,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,14480,0.989942557,,7352.958122,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,15280,0.931532477,,8156.178049,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,80,1.869177895,,0.014784,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,880,0.958193583,,1.55396,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,1680,0.931034835,,3.846864,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,2480,0.995937132,,8.238823,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,3280,1.048203017,,15.351935,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4080,0.981755471,,233.360211,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4880,1.011604514,,368.94134,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,5680,0.985363906,,59.498568,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,6480,0.988208283,,754.560083,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,7280,0.937180212,,1042.076152,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8080,0.950958872,,1464.940832,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8880,1.088622932,,1821.167722,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,9680,0.950111458,,2326.642922,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,10480,1.001238977,,3201.920043,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,11280,0.884336757,,3587.551063,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12080,0.86185511,,4366.459,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12880,0.932176143,,4992.468587,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,13680,0.920639292,,5932.807945,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,14480,0.880831377,,6988.836073,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,15280,0.85303379,,8156.509519,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,80,1.281461924,,0.021592,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,880,0.897236317,,1.531919,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,1680,0.949848449,,4.053003,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,2480,0.941139579,,8.9744,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,3280,1.094252473,,16.986259,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4080,1.000439615,,28.503574,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4880,0.966049361,,44.845229,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,5680,0.83725649,,621.642492,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,6480,1.052011905,,876.178829,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,7280,0.927300326,,1330.754964,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8080,1.127863636,,1702.571307,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8880,0.899461644,,2068.915739,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,9680,0.951291925,,2424.116473,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,10480,0.963539554,,2947.148338,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,11280,0.988869751,,3232.342626,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12080,0.951820597,,3076.889966,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12880,0.848078566,,5269.467569,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,13680,0.969082964,,5949.146423,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,14480,0.980784427,,6998.553791,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,15280,0.915008961,,8602.54096,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,80,2.119627223,,0.136787,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,880,0.991050179,,1.522045,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,1680,0.875426305,,3.938113,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,2480,1.195747827,,8.510042,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,3280,1.397159854,,15.921624,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4080,0.935936313,,26.78562,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4880,1.09015761,,41.764078,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,5680,1.000657127,,546.482294,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,6480,0.957726305,,783.702466,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,7280,0.925763851,,1080.323887,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8080,0.99420456,,1374.758352,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8880,0.947604156,,1885.177576,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,9680,0.886664712,,2526.699146,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,10480,0.927066264,,3163.667557,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,11280,1.060164899,,3715.350151,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12080,0.90582583,,4967.276762,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12880,0.941082244,,5168.999658,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,13680,0.942833254,,6299.124527,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,14480,0.863501387,,8525.295012,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,15280,0.91444255,,9526.670868,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,80,1.358026726,0.765862074,0.019049,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,880,1.286557643,0.730387126,1.537871,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,1680,1.147648138,0.729881754,3.808862,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,2480,1.025995212,0.689815492,8.248031,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,3280,0.892105129,0.618114935,15.387744,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4080,0.832715083,0.609642007,25.904715,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,4880,1.078810152,0.677889083,40.315648,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,5680,0.939017027,0.60193825,552.68125,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,6480,0.87595596,0.599368447,755.067806,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,7280,0.914999768,0.606629778,682.987117,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8080,0.928304409,0.586637655,1537.676622,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,8880,0.919956415,0.604372616,2001.161723,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,9680,0.933877654,0.620911222,2326.508975,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,10480,0.928116575,0.611186352,3207.918954,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,11280,0.984661227,0.608479423,3592.074323,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12080,1.049036272,0.632662037,4149.284791,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,12880,0.965936133,0.619258,4989.638966,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,13680,0.856041494,0.592662834,6236.065884,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,14480,0.889496153,0.594967806,7348.450903,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,15280,1.055742243,0.637199127,8161.181598,"RationalQuadratic(alpha=0.1, length_scale=1)"
+airplane,80,1.3952745,,0.205228,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,880,0.931744264,,1.509315,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,1680,0.840618966,,3.81225,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,2480,0.8591023,,64.377013,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,3280,0.893951236,,104.342383,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4080,0.918558853,,200.301105,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4880,0.890388742,,282.269848,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,5680,0.859733596,,500.725194,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,6480,0.921194176,,717.539678,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,7280,0.929675973,,1092.750793,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8080,0.904653379,,1256.952582,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8880,0.90196017,,1548.78652,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,9680,0.919720687,,2208.236478,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,10480,0.962223857,,2478.721681,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,11280,0.986159619,,3410.159601,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12080,0.968284922,,4150.023554,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12880,1.041776344,,4730.64172,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,13680,0.940252807,,5927.730024,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,14480,0.985401015,,7348.152443,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,15280,0.942954703,,8150.165842,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,80,1.2412381,,0.017191,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,880,0.85525532,,1.429011,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,1680,1.060050213,,3.797323,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,2480,0.859016736,,34.636296,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,3280,0.994476958,,117.285154,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4080,0.901318994,,200.642942,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4880,0.921461133,,282.503094,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,5680,1.009269469,,448.631702,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,6480,1.083631308,,718.083111,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,7280,0.977515376,,991.414708,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8080,0.9479907,,1327.540286,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8880,0.92108109,,1731.270426,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,9680,0.918787475,,2211.641035,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,10480,0.902087226,,2625.297381,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,11280,0.872529103,,3232.055756,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12080,0.900548701,,4580.470839,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12880,0.934636117,,4732.125709,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,13680,0.983868946,,5311.789785,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,14480,0.988525717,,6985.517164,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,15280,0.942408897,,8152.509187,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,80,1.656298871,,0.228755,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,880,1.422214696,,1.491014,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,1680,0.938865478,,3.81443,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,2480,0.99006691,,61.139459,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,3280,0.931981475,,104.528349,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4080,0.901828489,,211.527152,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4880,0.901402938,,299.653334,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,5680,1.147703334,,447.845802,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,6480,1.030549344,,381.936778,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,7280,0.950130438,,992.382998,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8080,0.963288121,,1399.683012,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8880,0.987971508,,1731.604956,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,9680,0.869412259,,2212.342308,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,10480,1.119758081,,2631.516915,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,11280,0.896512695,,3417.005783,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12080,1.016055063,,4373.039554,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12880,0.974326611,,4996.362201,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,13680,0.937107724,,5938.37465,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,14480,0.844574939,,6999.129397,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,15280,0.892304019,,7741.936306,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,80,0.670165206,,0.154395,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,880,0.878383446,,11.068612,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,1680,0.984597669,,4.077088,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,2480,0.936453247,,72.009816,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,3280,0.905420472,,124.259582,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4080,0.926297988,,201.93437,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4880,0.816943593,,360.20449,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,5680,0.854738804,,508.508041,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,6480,0.933036754,,790.024396,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,7280,0.977465105,,1033.373664,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8080,0.922539414,,902.930262,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8880,1.049435396,,2015.130363,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,9680,0.969102167,,2442.994088,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,10480,1.057154333,,3017.888865,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,11280,0.977435392,,3912.252877,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12080,0.954004612,,4614.275895,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12880,0.881552255,,6035.821993,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,13680,0.982347498,,6532.215723,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,14480,0.935183755,,8237.605863,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,15280,0.890886439,,9594.868599,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,80,1.262084088,0.83639329,0.120258,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,880,0.990421932,0.662691103,1.523659,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,1680,0.998053579,0.680138574,3.827384,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,2480,0.988179366,0.651708904,67.769663,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,3280,0.825297565,0.592716117,98.20166,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4080,0.864109166,0.610715348,190.462023,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,4880,0.861115619,0.597502791,300.359195,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,5680,0.861779086,0.58438146,474.572424,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,6480,0.912572131,0.608797814,717.231094,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,7280,0.984215343,0.606353727,888.798355,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8080,0.968343065,0.617961771,1260.975034,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,8880,1.029627849,0.608102186,1910.717787,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,9680,0.90456096,0.590304292,2096.783903,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,10480,0.967485901,0.625211903,2632.321994,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,11280,1.024061542,0.621793526,3235.411613,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12080,0.908066779,0.602276873,4150.24409,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,12880,0.84819989,0.58740402,4991.954169,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,13680,0.869177057,0.588039014,6241.176084,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,14480,0.967157723,0.609248892,6987.50852,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,15280,0.907450528,0.611359561,8171.651061,"RationalQuadratic(alpha=2, length_scale=0.5)"
+airplane,80,1.088168727,,0.01623,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,0.895924841,,15.36375,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.817041866,,42.314038,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,0.822918275,,53.11329,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,1.030368258,,297.157618,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,0.964293671,,298.905706,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,1.061817948,,147.631131,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,0.954244545,,236.652988,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,1.14418644,,322.293279,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,1.010930883,,402.264409,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.941320206,,531.532345,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.91443939,,9740.220277,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,0.948230638,,817.642138,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,0.947927225,,1063.353764,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,1.028248867,,1229.488068,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,1.006655338,,1471.717565,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,0.635436268,,0.030922,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,0.892328734,,29.076438,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,1.296687177,,87.000071,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,0.913882968,,130.04276,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,1.123311123,,55.14967,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,0.929896975,,94.767563,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,0.90017874,,140.239822,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.122848998,,2850.503984,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,1.002267921,,324.547615,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,0.947417054,,400.617464,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.891750875,,10620.17767,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.96877615,,6008.802708,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,0.946547408,,867.828764,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,0.991575266,,14863.12024,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,1.021686877,,1316.253804,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,0.966370334,,19244.17187,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,1.319318826,,0.015312,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,0.928814748,,2.552205,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.916820558,,96.253686,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,0.985332719,,152.109717,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,0.894878364,,53.9231,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,1.040317656,,87.131713,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,1.147573409,,1144.875383,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.107443613,,200.132997,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,0.95021916,,305.512815,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,0.966107671,,417.516264,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.93310296,,537.151583,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.927098597,,659.553396,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,1.031737092,,833.946807,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,1.013340043,,972.431785,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,0.943378704,,1257.877033,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,0.992029632,,1455.380308,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,1.319318826,,0.015312,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,0.928814748,,2.552205,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.916820558,,96.253686,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,0.985332719,,152.109717,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,0.894878364,,53.9231,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,1.040317656,,87.131713,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,1.147573409,,1144.875383,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.107443613,,200.132997,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,0.95021916,,305.512815,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,0.966107671,,417.516264,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.93310296,,537.151583,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.927098597,,659.553396,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,1.031737092,,833.946807,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,1.013340043,,972.431785,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,0.943378704,,1257.877033,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,0.880413256,,0.015538,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,1.324879604,,31.85271,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.975484365,,72.922408,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,0.923133793,,231.573582,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,1.122072622,,48.218003,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,0.931472449,,99.145364,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,0.857469777,,135.303677,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.035159153,,223.30955,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,0.940359834,,3085.591029,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,0.979441543,,395.145115,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.926931487,,472.722493,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.988922978,,668.149363,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,1.019582442,,871.273888,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,0.999291049,,1078.347738,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,1.00955079,,1317.849782,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,1.242122773,,13082.93428,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,1.044523631,0.742072863,0.283853,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,880,1.076571504,0.688004728,21.401176,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,1680,0.935315758,0.663809644,54.258717,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,2480,0.953857923,0.639902322,40.30784,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,3280,0.936274163,0.640091829,368.164481,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4080,0.8873694,0.643852406,94.600875,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,4880,1.01333179,0.635158735,144.777579,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,5680,1.14021365,0.658827758,191.071533,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,6480,1.333934293,0.723805802,281.721814,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,7280,1.119255906,0.677484947,378.902286,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8080,0.975187158,0.659098084,538.268484,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,8880,0.954317616,0.651470922,6921.971073,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,9680,0.922745788,0.640208406,870.669019,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,10480,0.867234302,0.577629884,12803.51246,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,11280,1.027881694,0.657718072,1281.053833,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,12080,0.929010756,0.603175392,27847.84914,"RBF(length_scale=0.1) * RationalQuadratic(alpha=0.1, length_scale=0.5)"
+airplane,80,0.818726065,,0.030471,RBF(length_scale=0.1)
+airplane,880,0.86934692,,4.606662,RBF(length_scale=0.1)
+airplane,1680,0.851814741,,16.190421,RBF(length_scale=0.1)
+airplane,2480,0.940983851,,23.214069,RBF(length_scale=0.1)
+airplane,3280,0.984867193,,212.607098,RBF(length_scale=0.1)
+airplane,4080,0.902503492,,77.857747,RBF(length_scale=0.1)
+airplane,4880,0.911311667,,420.961063,RBF(length_scale=0.1)
+airplane,5680,1.045374205,,1023.782751,RBF(length_scale=0.1)
+airplane,6480,0.93577813,,1617.302984,RBF(length_scale=0.1)
+airplane,7280,0.921977166,,356.631257,RBF(length_scale=0.1)
+airplane,8080,0.930412108,,488.455801,RBF(length_scale=0.1)
+airplane,8880,0.887594397,,608.776723,RBF(length_scale=0.1)
+airplane,9680,0.943496745,,745.457731,RBF(length_scale=0.1)
+airplane,10480,0.930990442,,978.724736,RBF(length_scale=0.1)
+airplane,11280,1.049813131,,1156.946513,RBF(length_scale=0.1)
+airplane,12080,0.968684004,,1331.250341,RBF(length_scale=0.1)
+airplane,12880,1.013572875,,9443.771577,RBF(length_scale=0.1)
+airplane,13680,1.034580308,,1871.406212,RBF(length_scale=0.1)
+airplane,14480,0.968863786,,12736.50374,RBF(length_scale=0.1)
+airplane,15280,0.922488285,,2532.387523,RBF(length_scale=0.1)
+airplane,16080,1.033983586,,2879.720227,RBF(length_scale=0.1)
+airplane,16880,0.89842771,,3261.808404,RBF(length_scale=0.1)
+airplane,17680,1.030468947,,3496.066095,RBF(length_scale=0.1)
+airplane,80,0.977040276,,0.00916,RBF(length_scale=0.1)
+airplane,880,1.118243807,,3.532156,RBF(length_scale=0.1)
+airplane,1680,0.968092847,,64.487219,RBF(length_scale=0.1)
+airplane,2480,0.967421126,,21.176138,RBF(length_scale=0.1)
+airplane,3280,1.031929349,,165.029623,RBF(length_scale=0.1)
+airplane,4080,0.84219108,,82.531589,RBF(length_scale=0.1)
+airplane,4880,1.068325622,,696.114945,RBF(length_scale=0.1)
+airplane,5680,0.994576442,,1677.013256,RBF(length_scale=0.1)
+airplane,6480,1.025421751,,1386.681885,RBF(length_scale=0.1)
+airplane,7280,0.921099318,,362.067219,RBF(length_scale=0.1)
+airplane,8080,1.170643707,,2362.852258,RBF(length_scale=0.1)
+airplane,8880,0.928758976,,628.002447,RBF(length_scale=0.1)
+airplane,9680,0.993741332,,6597.779448,RBF(length_scale=0.1)
+airplane,10480,0.976516599,,1034.82253,RBF(length_scale=0.1)
+airplane,11280,0.98938268,,6338.252148,RBF(length_scale=0.1)
+airplane,12080,0.954851515,,7124.48668,RBF(length_scale=0.1)
+airplane,12880,1.006436655,,1663.724634,RBF(length_scale=0.1)
+airplane,13680,1.018270293,,2037.117314,RBF(length_scale=0.1)
+airplane,14480,0.989978661,,13610.31639,RBF(length_scale=0.1)
+airplane,15280,0.969769862,,2560.758885,RBF(length_scale=0.1)
+airplane,16080,1.014598405,,2978.045311,RBF(length_scale=0.1)
+airplane,16880,0.970146873,,3118.547686,RBF(length_scale=0.1)
+airplane,17680,1.008152501,,3819.318373,RBF(length_scale=0.1)
+airplane,80,2.435044701,0.931147887,0.009435,RBF(length_scale=0.1)
+airplane,880,0.834725188,0.613667234,8.317747,RBF(length_scale=0.1)
+airplane,1680,1.064417192,0.636833236,25.849494,RBF(length_scale=0.1)
+airplane,2480,0.925110503,0.65134594,105.742272,RBF(length_scale=0.1)
+airplane,3280,0.98539864,0.652889109,161.045934,RBF(length_scale=0.1)
+airplane,4080,1.048367976,0.66913408,259.785039,RBF(length_scale=0.1)
+airplane,4880,0.93248555,0.62856648,135.877534,RBF(length_scale=0.1)
+airplane,5680,0.957764683,0.664222597,198.421399,RBF(length_scale=0.1)
+airplane,6480,0.877475797,0.632501903,313.358348,RBF(length_scale=0.1)
+airplane,7280,0.99550916,0.653730012,406.677338,RBF(length_scale=0.1)
+airplane,8080,0.975009323,0.662982021,517.319508,RBF(length_scale=0.1)
+airplane,8880,0.984443,0.648128777,595.540846,RBF(length_scale=0.1)
+airplane,9680,0.943186227,0.64374856,816.493886,RBF(length_scale=0.1)
+airplane,10480,0.954527465,0.644632068,6387.410808,RBF(length_scale=0.1)
+airplane,11280,1.059019883,0.658217129,3149.759304,RBF(length_scale=0.1)
+airplane,12080,1.123085567,0.668396122,12851.47459,RBF(length_scale=0.1)
+airplane,12880,0.938515313,0.641905119,7835.975609,RBF(length_scale=0.1)
+airplane,13680,0.979793123,0.65416872,1997.179586,RBF(length_scale=0.1)
+airplane,14480,0.942046591,0.642468124,16144.50221,RBF(length_scale=0.1)
+airplane,15280,0.993567842,0.66215764,2485.867659,RBF(length_scale=0.1)
+airplane,16080,1.032546552,0.667154023,2830.524202,RBF(length_scale=0.1)
+airplane,16880,0.93071357,0.648521473,3581.970302,RBF(length_scale=0.1)
+airplane,17680,0.999134098,0.648601237,3933.431315,RBF(length_scale=0.1)
+airplane,80,1.012766277,,0.01056,RBF(length_scale=1)
+airplane,880,0.924196625,,0.556053,RBF(length_scale=1)
+airplane,1680,1.118775457,,2.669735,RBF(length_scale=1)
+airplane,2480,0.948030038,,6.252353,RBF(length_scale=1)
+airplane,3280,1.301728668,,12.10581,RBF(length_scale=1)
+airplane,4080,0.975649304,,20.834677,RBF(length_scale=1)
+airplane,4880,0.966052615,,33.008987,RBF(length_scale=1)
+airplane,5680,0.890232136,,49.775795,RBF(length_scale=1)
+airplane,6480,0.994774455,,72.196828,RBF(length_scale=1)
+airplane,7280,0.950263794,,100.826687,RBF(length_scale=1)
+airplane,8080,0.927242284,,136.291572,RBF(length_scale=1)
+airplane,8880,1.063294006,,178.297624,RBF(length_scale=1)
+airplane,9680,0.925482044,,229.451846,RBF(length_scale=1)
+airplane,10480,0.925497303,,289.302744,RBF(length_scale=1)
+airplane,11280,0.934613427,,357.165134,RBF(length_scale=1)
+airplane,12080,0.934905456,,436.306313,RBF(length_scale=1)
+airplane,12880,1.025974608,,526.487763,RBF(length_scale=1)
+airplane,13680,1.020850853,,627.564715,RBF(length_scale=1)
+airplane,14480,0.970522705,,742.160765,RBF(length_scale=1)
+airplane,15280,0.993003089,,875.389797,RBF(length_scale=1)
+airplane,16080,1.12607201,,1010.405417,RBF(length_scale=1)
+airplane,16880,0.952377373,,1164.998895,RBF(length_scale=1)
+airplane,17680,1.001884397,,1330.649954,RBF(length_scale=1)
+airplane,80,0.928620219,,0.010336,RBF(length_scale=1)
+airplane,880,1.012881163,,0.533848,RBF(length_scale=1)
+airplane,1680,0.956075215,,2.591014,RBF(length_scale=1)
+airplane,2480,1.187670378,,6.232326,RBF(length_scale=1)
+airplane,3280,0.993239727,,12.093599,RBF(length_scale=1)
+airplane,4080,0.928366082,,20.706446,RBF(length_scale=1)
+airplane,4880,0.967658867,,32.950863,RBF(length_scale=1)
+airplane,5680,0.926725363,,49.78901,RBF(length_scale=1)
+airplane,6480,0.908899382,,72.251164,RBF(length_scale=1)
+airplane,7280,0.929588987,,100.847609,RBF(length_scale=1)
+airplane,8080,1.120372202,,136.204665,RBF(length_scale=1)
+airplane,8880,0.98986804,,178.271578,RBF(length_scale=1)
+airplane,9680,0.962157048,,229.237936,RBF(length_scale=1)
+airplane,10480,1.037310697,,289.332727,RBF(length_scale=1)
+airplane,11280,1.040670485,,356.127618,RBF(length_scale=1)
+airplane,12080,1.039618557,,435.237691,RBF(length_scale=1)
+airplane,12880,0.945559706,,526.349947,RBF(length_scale=1)
+airplane,13680,0.969078416,,627.410435,RBF(length_scale=1)
+airplane,14480,1.20726728,,741.372137,RBF(length_scale=1)
+airplane,15280,0.990467961,,866.858943,RBF(length_scale=1)
+airplane,16080,1.037944914,,1008.790879,RBF(length_scale=1)
+airplane,16880,0.982936207,,1163.177201,RBF(length_scale=1)
+airplane,17680,0.944084607,,1332.465461,RBF(length_scale=1)
+airplane,80,0.695972039,,0.01053,RBF(length_scale=1)
+airplane,880,1.31628935,,0.558695,RBF(length_scale=1)
+airplane,1680,0.892907732,,2.664438,RBF(length_scale=1)
+airplane,2480,0.93064235,,6.256704,RBF(length_scale=1)
+airplane,3280,1.067031937,,12.072237,RBF(length_scale=1)
+airplane,4080,0.922666162,,20.672999,RBF(length_scale=1)
+airplane,4880,0.987717551,,32.885999,RBF(length_scale=1)
+airplane,5680,1.066494254,,49.75355,RBF(length_scale=1)
+airplane,6480,1.023086482,,72.119134,RBF(length_scale=1)
+airplane,7280,0.965733666,,100.548366,RBF(length_scale=1)
+airplane,8080,0.913655943,,135.795719,RBF(length_scale=1)
+airplane,8880,1.073837437,,178.362344,RBF(length_scale=1)
+airplane,9680,0.964771271,,229.386185,RBF(length_scale=1)
+airplane,10480,1.059016996,,288.632655,RBF(length_scale=1)
+airplane,11280,0.957136987,,356.409424,RBF(length_scale=1)
+airplane,12080,1.13217011,,436.187404,RBF(length_scale=1)
+airplane,12880,0.995136466,,526.827824,RBF(length_scale=1)
+airplane,13680,1.001004935,,627.68112,RBF(length_scale=1)
+airplane,14480,1.070454246,,741.166266,RBF(length_scale=1)
+airplane,15280,1.096637493,,866.636077,RBF(length_scale=1)
+airplane,16080,1.036445028,,1008.468201,RBF(length_scale=1)
+airplane,16880,0.995701912,,1162.981941,RBF(length_scale=1)
+airplane,17680,0.993996252,,1331.042822,RBF(length_scale=1)
+airplane,80,0.685723526,,0.020176,RBF(length_scale=1)
+airplane,880,1.086751932,,0.663195,RBF(length_scale=1)
+airplane,1680,0.955295086,,2.90695,RBF(length_scale=1)
+airplane,2480,1.197775157,,6.964825,RBF(length_scale=1)
+airplane,3280,0.797470705,,13.666106,RBF(length_scale=1)
+airplane,4080,1.056714147,,23.628113,RBF(length_scale=1)
+airplane,4880,0.918535041,,38.34921,RBF(length_scale=1)
+airplane,5680,1.072445662,,58.523766,RBF(length_scale=1)
+airplane,6480,0.922317639,,84.996426,RBF(length_scale=1)
+airplane,7280,0.954067154,,118.637381,RBF(length_scale=1)
+airplane,8080,1.067219636,,160.5166,RBF(length_scale=1)
+airplane,8880,0.959074006,,210.937927,RBF(length_scale=1)
+airplane,9680,0.935163067,,270.788149,RBF(length_scale=1)
+airplane,10480,0.947624563,,340.819906,RBF(length_scale=1)
+airplane,11280,1.048998892,,420.663414,RBF(length_scale=1)
+airplane,12080,0.892307625,,514.357845,RBF(length_scale=1)
+airplane,12880,0.947401502,,620.65055,RBF(length_scale=1)
+airplane,13680,1.058300571,,742.984602,RBF(length_scale=1)
+airplane,14480,1.085498118,,874.99493,RBF(length_scale=1)
+airplane,15280,0.99983611,,1023.697822,RBF(length_scale=1)
+airplane,16080,0.967586076,,1191.998438,RBF(length_scale=1)
+airplane,16880,1.024173957,,1372.219469,RBF(length_scale=1)
+airplane,17680,0.923378428,,1571.749457,RBF(length_scale=1)
+airplane,80,0.797601837,0.580807969,0.042155,RBF(length_scale=1)
+airplane,880,0.951334545,0.651058989,0.552294,RBF(length_scale=1)
+airplane,1680,0.827661949,0.615138052,2.538479,RBF(length_scale=1)
+airplane,2480,0.913990539,0.644288612,6.196779,RBF(length_scale=1)
+airplane,3280,1.04642101,0.665646059,12.087286,RBF(length_scale=1)
+airplane,4080,0.863399467,0.609811567,20.670131,RBF(length_scale=1)
+airplane,4880,1.163677446,0.691511063,32.910309,RBF(length_scale=1)
+airplane,5680,0.988136922,0.652025895,49.790151,RBF(length_scale=1)
+airplane,6480,1.12701579,0.689379798,72.052801,RBF(length_scale=1)
+airplane,7280,0.977823897,0.647766251,100.715873,RBF(length_scale=1)
+airplane,8080,1.069642177,0.674245324,136.300235,RBF(length_scale=1)
+airplane,8880,0.998880693,0.636068668,178.386424,RBF(length_scale=1)
+airplane,9680,1.165033758,0.686105782,229.370608,RBF(length_scale=1)
+airplane,10480,0.900239976,0.634978393,289.205637,RBF(length_scale=1)
+airplane,11280,0.938376033,0.649891155,357.068353,RBF(length_scale=1)
+airplane,12080,0.993302674,0.651270363,436.102344,RBF(length_scale=1)
+airplane,12880,1.010871207,0.658376199,526.200607,RBF(length_scale=1)
+airplane,13680,1.04908997,0.668109774,627.616133,RBF(length_scale=1)
+airplane,14480,1.097575754,0.660647839,740.737682,RBF(length_scale=1)
+airplane,15280,0.962878231,0.66961211,867.27136,RBF(length_scale=1)
+airplane,16080,1.026242098,0.655474987,1008.501998,RBF(length_scale=1)
+airplane,16880,0.979119881,0.66770928,1163.211208,RBF(length_scale=1)
+airplane,17680,0.973617703,0.647047839,1333.443718,RBF(length_scale=1)
