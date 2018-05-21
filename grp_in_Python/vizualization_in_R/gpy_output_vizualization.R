@@ -11,7 +11,7 @@ names(gpy_abalone_evaluation)
 
 gpy_SARCOS_evaluation <- 
   read_csv(paste0(file.path("C:/cygwin64/home/agrita.garnizone/gpr-big-data/",
-                            "grp_in_Python/output/gpy_asarcos_output.csv")))
+                            "grp_in_Python/output/gpy_sarcos_output.csv")))
 names(gpy_SARCOS_evaluation)
 
 gpy_airplane_evaluation <- 
@@ -20,11 +20,11 @@ gpy_airplane_evaluation <-
 names(gpy_airplane_evaluation)
 
 # create summary data frame -----
-df <- rbind(kernlab_abalone_evaluation, kernlab_SARCOS_evaluation,
-            kernlab_airplane_evaluation) %>%
-  select(data, kernel,sample_size,time.taken,RMSE,MAE) %>%
+df <- rbind(gpy_abalone_evaluation, gpy_SARCOS_evaluation,
+            gpy_airplane_evaluation) %>%
+  select(data, kernel,sample_size,time_took,RMSE,MAE) %>%
   group_by(data, kernel,sample_size) %>%
-  summarize(time.taken = median(time.taken, na.rm = TRUE),
+  summarize(time.taken = median(time_took, na.rm = TRUE),
             RMSE = median(RMSE, na.rm = TRUE),
             MAE = median(MAE, na.rm = TRUE)
   ) %>%
@@ -36,11 +36,11 @@ df <- df[complete.cases(df),]
 
 # write summary data frame for future use ----
 write.csv(df, file.path(paste0("C:/cygwin64/home/agrita.garnizone/gpr-big-data/",
-                               "grp_in_R/output/kernlab_output_summary.csv")),
+                               "grp_in_R/output/gpy_output_summary.csv")),
           row.names = FALSE)
 
 # create vizualizations | data ---- 
-df_melted <- reshape2::melt(df, id.vars = c("data", "method", "sample_size"))
+df_melted <- reshape2::melt(df, id.vars = c("data", "kernel", "sample_size"))
 
 df_melted_abalone <- df_melted[which(df_melted$data == "abalone"),]
 df_melted_sarcos <- df_melted[which(df_melted$data == "SARCOS"),]
@@ -92,8 +92,7 @@ df_input <- df_melted_airplane %>%
   select(kernel, sample_size, variable, value) %>%
   filter(variable %in% c("RMSE", "MAE"))
 
-ggplot(data = df_input, aes(x=sample_size, y = value, color = kernel,
-                            size = method)) +
+ggplot(data = df_input, aes(x=sample_size, y = value, color = kernel)) +
   geom_line()+ geom_point() +
   scale_size_manual(values = c(3, 1.5, 1))+
   facet_grid(variable~., scales = "free", 
@@ -114,8 +113,7 @@ df_input <- df_melted_airplane %>%
   select(kernel, sample_size, variable, value) %>%
   filter(variable %in% c("time.taken"))
 
-ggplot(data = df_input, aes(x=sample_size, y = value/60, color = kernel,
-                            size = method)) +
+ggplot(data = df_input, aes(x=sample_size, y = value/60, color = kernel)) +
   geom_line()+ geom_point() +
   scale_size_manual(values = c(3, 1.5, 1))+
   facet_grid(variable~., scales = "free", 
@@ -135,8 +133,7 @@ df_input <- df_melted_sarcos %>%
   select(kernel, sample_size, variable, value) %>%
   filter(variable %in% c("RMSE", "MAE"))
 
-ggplot(data = df_input, aes(x=sample_size, y = value, color = kernel,
-                            size = method)) +
+ggplot(data = df_input, aes(x=sample_size, y = value, color = kernel)) +
   geom_line()+ geom_point() +
   scale_size_manual(values = c(2, 1, 1))+
   facet_grid(variable~., scales = "free", 
@@ -159,8 +156,7 @@ df_input <- df_melted_sarcos %>%
   select(kernel, sample_size, variable, value) %>%
   filter(variable %in% c("time.taken"))
 
-ggplot(data = df_input, aes(x=sample_size, y = value/60, color = kernel,
-                            size = method)) +
+ggplot(data = df_input, aes(x=sample_size, y = value/60, color = kernel)) +
   geom_line()+ geom_point() +
   scale_size_manual(values = c(1.5 ,2, 1))+
   facet_grid(variable~., scales = "free", 
